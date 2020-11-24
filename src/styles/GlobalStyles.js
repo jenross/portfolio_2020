@@ -35,9 +35,12 @@ const GlobalStyles = createGlobalStyle`
   }
 
 
-  /* img {
+  img {
     max-width: 100%;
-  } */
+    height: auto;
+  }
+
+
  /*
  * Hide only visually, but have it available for screen readers:
  * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility

@@ -2,15 +2,16 @@ import React from 'react';
 import { Link, useStaticQuery, graphql } from 'gatsby';
 import styled from 'styled-components';
 import Logo from '../images/JR_Logo-02.png';
-import Profile from '../images/profile.jpg';
 import Img from "gatsby-image"
 
-const HeroStyles = styled.section`
-   
-
+const NavStyles = styled.nav`
+    margin-bottom: 1em;
+    .hero-logo {
+        left: -1.25em;
+    }
 `
 
-const Hero = () => {
+const Nav = () => {
     const data = useStaticQuery(graphql`
     query {
       logo: file(relativePath: { eq: "JR_Logo-02.png" }) {
@@ -26,12 +27,15 @@ const Hero = () => {
     }
   `);
     return (
-      <HeroStyles>
-   
-         <h1 className="hero-header">Hi, I'm <span className="purple">Jennifer Ross</span></h1>
-
-      </HeroStyles>
+      <NavStyles>
+        <Img
+            className="hero-logo"
+            fixed={data.logo.childImageSharp.fixed}
+            alt="Jennifer Ross logo"
+        />
+         
+      </NavStyles>
     );
   }
 
-  export default Hero;
+  export default Nav;
