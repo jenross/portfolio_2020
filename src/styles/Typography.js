@@ -16,6 +16,10 @@ const Typography = createGlobalStyle`
   .center {
     text-align: center;
   }
+
+  .purple {
+    color: var(--purple);
+  }
   
 `;
 

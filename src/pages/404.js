@@ -1,5 +1,13 @@
 import React from 'react';
+import Layout from "../components/Layout";
 
 export default function FourOhFourPage() {
-  return <p>Hey - That page doesn't exist!</p>;
-}
+    return (
+        <>
+            <Layout>
+                <h1>Sorry, this page does not exist!</h1>
+               
+            </Layout>
+        </>
+      );
+    }

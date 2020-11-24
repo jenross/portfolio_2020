@@ -1,14 +1,16 @@
 import React from "react";
 // import mj_logo from "../images/MercuryJane-05.png";
 import Layout from "../components/Layout";
+import Hero from "../components/Hero";
+
 
 export default function HomePage() {
   return (
     <>
         <Layout>
-            <h1 className="main-header">Jennifer Ross</h1>
+            <Hero />
             {/* <img src={mj_logo} alt="Mercury Jane Media LLC" className="logo" /> */}
-            <h2 className="coming-soon">Coming soon!</h2>
+           
         </Layout>
     </>
   );
