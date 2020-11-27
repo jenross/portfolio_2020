@@ -7,7 +7,7 @@ const SkillsStyles = styled.section`
 
     .sub-header {
         line-height: 1.3em;
-        margin-top: 2.75em;
+        margin-top: 1.9em;
         margin-bottom: 0.75em;
         font-size: 1.7rem;
 
@@ -29,11 +29,12 @@ const SkillsStyles = styled.section`
   }
 `;
 
-const Skills = () => {
+const Focus = () => {
 
   return (
     <SkillsStyles>
-        <h2 className="sub-header">Skills</h2>
+        
+        <h2 className="sub-header">Focus</h2>
         <p className="skills-paragraph">I'm a creative introvert. Lorem ipsum dolor sit amet, consectetur
         adipiscing elit. Cras consectetur vel ante vitae lacinia. Sed et ante a. </p>
         <ul className="skills-list">
@@ -44,11 +45,13 @@ const Skills = () => {
             <li className="skills-list-each">Accessibility</li>
             <li className="skills-list-each">Git</li>
             <li className="skills-list-each">PHP</li>
-            <li className="skills-list-each">SQL</li>
+            <li className="skills-list-each">SQL & GraphQL</li>
             <li className="skills-list-each">GreenSock & Framer Motion</li>
+            <li className="skills-list-each">WordPress & Sanity</li>
+            <li className="skills-list-each">Figma</li>
         </ul>
     </SkillsStyles>
   );
 };
 
-export default Skills;
+export default Focus;

@@ -68,7 +68,7 @@ const Hero = () => {
        <p className="hero-content">
         Nulla commodo aliquet risus at pretium. Proin in sagittis metus, ut ultricies magna. Lorem eleifend venenatis quis eu ex.
       </p>
- 
+      
     </HeroStyles>
   );
 };
