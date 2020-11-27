@@ -19,12 +19,9 @@ const HeroStyles = styled.section`
 
   .hero-profile {
     margin-top: 0.75em;
-     /* margin-bottom: 0.75em; */
+    margin-bottom: 1.3em;
     border-radius: 4px; 
     box-shadow: 0 0 10px #ddd;
-    height: auto; 
-    /* width: 100%; 
-    height: 420px; */
   }
 `;
 

@@ -8,7 +8,7 @@ import Typography from "../styles/Typography";
 
 const LayoutStyles = styled.div`
   padding: 1.5em;
-  margin: 0.5em auto;
+  margin: auto;
   min-height: 100vh;
 `;
 
