@@ -7,7 +7,11 @@ import Img from "gatsby-image";
 const NavStyles = styled.nav`
   margin-bottom: 1em;
   .hero-logo {
-    left: -1.25em;
+    left: -1.5em;
+  }
+
+  .nav-links {
+    list-style-type: none;
   }
 `;
 
@@ -30,6 +34,11 @@ const Nav = () => {
         fixed={data.logo.childImageSharp.fixed}
         alt="Jennifer Ross logo"
       />
+
+      <ul className="nav-links">
+        <li>Portfolio</li>
+        <li>Contact</li>
+      </ul>
     </NavStyles>
   );
 };

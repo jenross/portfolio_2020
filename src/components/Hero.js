@@ -1,7 +1,6 @@
 import React from "react";
 import { Link, useStaticQuery, graphql } from "gatsby";
 import styled from "styled-components";
-import Logo from "../images/JR_Logo-02.png";
 import Profile from "../images/profile.jpg";
 import Img from "gatsby-image";
 import Button from "./Button.js";
@@ -10,21 +9,36 @@ import ButtonSecondary from "./ButtonSecondary.js";
 const HeroStyles = styled.section`
   .hero-header {
     margin-bottom: 0.75em;
+    line-height: 1.3;
   }
 
   .hero-content {
     margin-bottom: 1.75em;
     font-size: 1.075rem;
   }
+
+  .hero-profile {
+    margin-top: 0.75em;
+     /* margin-bottom: 0.75em; */
+    border-radius: 4px; 
+    box-shadow: 0 0 10px #ddd;
+    height: auto; 
+    /* width: 100%; 
+    height: 420px; */
+  }
 `;
 
 const Hero = () => {
   const data = useStaticQuery(graphql`
     query {
-      logo: file(relativePath: { eq: "JR_Logo-02.png" }) {
+      profile: file(relativePath: { eq: "profile.jpg" }) {
         childImageSharp {
-          fixed(width: 100, height: 100) {
-            ...GatsbyImageSharpFixed
+          fluid {
+            aspectRatio
+            base64
+            src
+            sizes
+            srcSet
           }
         }
       }
@@ -33,16 +47,31 @@ const Hero = () => {
   return (
     <HeroStyles>
       <h1 className="hero-header">
-        Hi, I'm <span className="purple">Jennifer Ross</span>
+        <span className="inline-block">Hi, I'm Jennifer Ross.</span>
+        <span className="inline-block">Full Stack <span className="purple">Developer</span></span>
+        <span className="inline-block">& UI <span className="purple">Designer</span>.</span>
+        {/* <span className="inline-block">& Web Accessibility Specialist.</span> */}
       </h1>
+
+      {/* <Button>See my work</Button>
+      <ButtonSecondary>Contact me</ButtonSecondary> */}
+
+      <Img  
+        className="hero-profile gatsby-image-wrapper"
+        fluid={data.profile.childImageSharp.fluid}
+        alt="Jennifer Ross profile"
+        />
       <p className="hero-content">
         I'm a creative introvert. Lorem ipsum dolor sit amet, consectetur
-        adipiscing elit. Cras consectetur vel ante vitae lacinia. Sed et ante a
-        lorem eleifend venenatis quis eu ex. Nulla commodo aliquet risus at
-        pretium. Proin in sagittis metus, ut ultricies magna.
+        adipiscing elit. Cras consectetur vel ante vitae lacinia. Sed et ante a. 
       </p>
-      <Button>See my work</Button>
-      <ButtonSecondary>Contact</ButtonSecondary>
+      <p className="hero-content">
+        Nulla commodo aliquet risus at pretium. Proin in sagittis metus, ut ultricies magna. Lorem eleifend venenatis quis eu ex.
+      </p>
+       <p className="hero-content">
+        Nulla commodo aliquet risus at pretium. Proin in sagittis metus, ut ultricies magna. Lorem eleifend venenatis quis eu ex.
+      </p>
+ 
     </HeroStyles>
   );
 };

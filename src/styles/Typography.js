@@ -6,13 +6,13 @@ const Typography = createGlobalStyle`
     color: var(--black);
   }
 
-  body {
+  /* body {
     line-height: 1.7;
-  }
+  } */
 
   p, li {
     letter-spacing: 0.5px;
- 
+    line-height: 1.7;
   }
 
   h1,h2,h3,h4,h5,h6 {
@@ -26,6 +26,10 @@ const Typography = createGlobalStyle`
 
   .purple {
     color: var(--purple);
+  }
+
+  .inline-block {
+    display: inline-block;
   }
   
 `;

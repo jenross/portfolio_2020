@@ -6,7 +6,7 @@ const ButtonStyles = styled.button`
   display: block;
   margin-bottom: 1em;
   background-color: var(--purple);
-  width: 40%;
+  width: 50%;
   padding: 0.5em 1em;
   color: var(--white);
   border-radius: 3px;

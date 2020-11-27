@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 const ButtonSecondaryStyles = styled.button`
   background-color: var(--white);
-  width: 40%;
+  width: 50%;
   padding: 0.5em 1em;
   color: var(--purple);
   border-radius: 3px;
