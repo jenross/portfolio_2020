@@ -7,7 +7,9 @@ const GlobalStyles = createGlobalStyle`
     --lightpurple: #C4ADE2;
     --white: #FCFCFC;
     --gray: #C4C4C4;
+    --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
   }
+
   html {
     box-sizing: border-box;
   }
@@ -16,6 +18,7 @@ const GlobalStyles = createGlobalStyle`
 *::after {
   box-sizing: inherit;
 }
+
   body {
   }
   fieldset {
@@ -29,7 +32,8 @@ const GlobalStyles = createGlobalStyle`
       
     }
   }
-  .gatsby-image-wrapper img[src*=base64\\,] {
+
+  .gatsby-image-wrapper img[src*=base64] {
     image-rendering: -moz-crisp-edges;
     image-rendering: pixelated;
   }
