@@ -4,14 +4,29 @@ import styled from "styled-components";
 import Logo from "../images/JR_Logo-02.png";
 import Img from "gatsby-image";
 
+const HeaderStyles = styled.header`
+  margin-bottom: 1.5em;
+`
+
 const NavStyles = styled.nav`
-  margin-bottom: 1em;
+
+  display: flex; 
+  justify-content: space-between;
   .hero-logo {
     left: -1.5em;
   }
 
   .nav-links {
-    list-style-type: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    align-self: center;
+    font-size: 1.075rem;
+  }
+
+  .nav-links li:first-child {
+    padding-right: 1.5em;
   }
 `;
 
@@ -28,18 +43,20 @@ const Nav = () => {
     }
   `);
   return (
-    <NavStyles>
-      <Img
-        className="hero-logo gatsby-image-wrapper"
-        fixed={data.logo.childImageSharp.fixed}
-        alt="Jennifer Ross logo"
-      />
+    <HeaderStyles>
+      <NavStyles>
+        <Img
+          className="hero-logo gatsby-image-wrapper"
+          fixed={data.logo.childImageSharp.fixed}
+          alt="Jennifer Ross logo"
+        />
 
-      <ul className="nav-links">
-        <li>Portfolio</li>
-        <li>Contact</li>
-      </ul>
-    </NavStyles>
+        <ul className="nav-links">
+          <li className="each-nav-link">Portfolio</li>
+          <li className="each-nav-link">Contact</li>
+        </ul>
+      </NavStyles>
+    </HeaderStyles>
   );
 };
 

@@ -9,7 +9,7 @@ import ButtonSecondary from "./ButtonSecondary.js";
 const HeroStyles = styled.section`
   .hero-header {
     margin-bottom: 0.75em;
-    line-height: 1.3;
+    line-height: 1.3em;
   }
 
   .hero-content {
