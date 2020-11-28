@@ -44,6 +44,7 @@ const InstagramStyles = styled.section`
 
   .each-image {
       width: 100%;
+      border-radius: 4px; 
         * {
             margin-top: 0;
         }
