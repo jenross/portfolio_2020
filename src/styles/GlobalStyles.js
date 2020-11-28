@@ -44,7 +44,11 @@ const GlobalStyles = createGlobalStyle`
     height: auto;
   }
 
-
+  .page-breakup {
+    width: 35%;
+    border-top: 3px solid var(--purple);
+    margin-top: 3.5em;
+  }
  /*
  * Hide only visually, but have it available for screen readers:
  * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility

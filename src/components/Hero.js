@@ -47,7 +47,6 @@ const Hero = () => {
         <span className="inline-block">Hi, I'm Jennifer Ross.</span>
         <span className="inline-block">Full Stack <span className="purple">Developer</span></span>
         <span className="inline-block">& UI <span className="purple">Designer</span>.</span>
-        {/* <span className="inline-block">& Web Accessibility Specialist.</span> */}
       </h1>
 
       {/* <Button>See my work</Button>
