@@ -6,11 +6,10 @@ import Img from "gatsby-image";
 
 const HeaderStyles = styled.header`
   margin-bottom: 1.5em;
-`
+`;
 
 const NavStyles = styled.nav`
-
-  display: flex; 
+  display: flex;
   justify-content: space-between;
   .hero-logo {
     left: -1.5em;
@@ -20,9 +19,13 @@ const NavStyles = styled.nav`
     list-style: none;
     padding: 0;
     margin: 0;
-    display: flex; 
+    display: flex;
     align-self: center;
     font-size: 1.075rem;
+  }
+
+  .each-nav-link {
+    color: var(--black);
   }
 
   .nav-links li:first-child {

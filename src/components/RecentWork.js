@@ -13,7 +13,13 @@ const RecentWorkStyles = styled.section`
 
   .recent-work-description {
     font-size: 1.075rem;
+    margin-bottom: 1em;
+  }
+
+  .see-all-link {
+    font-size: 1.075rem;
     margin-bottom: 3em;
+    font-weight: semi-bold;
   }
 `;
 
@@ -25,6 +31,9 @@ const RecentWork = () => {
         I'm a creative introvert. Lorem ipsum dolor sit amet, consectetur
         adipiscing elit. Cras consectetur vel ante vitae lacinia. Sed et ante a.{" "}
       </p>
+      <Link to="/portfolio" className="see-all-link">
+        See all work &rarr;
+      </Link>
       <WorkPreview
         heading="Envision Wellness"
         description="Nulla commodo aliquet risus at pretium. Proin in sagittis metus, ut ultricies magna. Lorem eleifend venenatis quis eu ex."

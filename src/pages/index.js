@@ -15,6 +15,7 @@ export default function HomePage() {
           <Focus />
           <hr className="page-breakup" />
           <RecentWork />
+          <hr className="page-breakup" />
         </main>
       </Layout>
     </>
