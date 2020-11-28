@@ -24,6 +24,7 @@ const SkillsStyles = styled.section`
 
   .skills-list-each:last-child {
     padding-bottom: 0;
+    margin-bottom: 0;
   }
 `;
 

@@ -6,16 +6,11 @@ import Logo from "../images/JR_Logo-02.png";
 import Img from "gatsby-image";
 
 const FooterStyles = styled.footer`
-  margin-top: 3em;
+  margin-top: 4.5em;
 
   p {
     color: var(--black);
   }
-
-  .footer-logo {
-    left: -1.5em;
-  }
-
 
 
   .social-icons {
@@ -24,6 +19,12 @@ const FooterStyles = styled.footer`
     margin: 0;
     display: flex;
     justify-content: center;
+    
+  }
+
+  .social-icons {
+    padding-top: 4.5em;
+    /* border-top: 1px solid var(--purple); */
   }
 
   .social-icons li {

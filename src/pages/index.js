@@ -21,7 +21,7 @@ export default function HomePage() {
           <Contact />
           <hr className="page-breakup" />
           <Instagram />
-           <hr className="page-breakup" />
+           {/* <hr className="page-breakup" /> */}
         </main>
       </Layout>
     </>

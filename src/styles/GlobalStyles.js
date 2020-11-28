@@ -48,7 +48,7 @@ const GlobalStyles = createGlobalStyle`
   .page-breakup {
     width: 35%;
     border-top: 3px solid var(--purple);
-    margin-top: 3.5em;
+    margin-top: 4.5em;
   }
  /*
  * Hide only visually, but have it available for screen readers:

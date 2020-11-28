@@ -17,6 +17,11 @@ const HeroStyles = styled.section`
     font-size: 1.075rem;
   }
 
+  .hero-content:last-child {
+    margin-bottom: 0;
+  
+  }
+
   .hero-profile {
     margin-top: 0.75em;
     margin-bottom: 1.3em;
