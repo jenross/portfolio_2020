@@ -6,7 +6,7 @@ const SkillsStyles = styled.section`
   .sub-header {
     line-height: 1.3em;
     margin-top: 1.9em;
-    margin-bottom: 0.75em;
+    margin-bottom: 0.5em;
     font-size: 2rem;
   }
 

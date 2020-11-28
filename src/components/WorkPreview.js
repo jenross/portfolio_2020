@@ -18,12 +18,12 @@ const WorkPreviewStyles = styled.div`
 
   .work-link {
     font-size: 1rem;
-    margin-bottom: 2em;
   }
 
   .work-img {
     border-radius: 4px;
     box-shadow: 0 0 10px #ddd;
+    margin-top: 2.5em;
   }
 `;
 
