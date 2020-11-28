@@ -35,6 +35,6 @@ module.exports = {
       username: `43386860109`,
     },
   },
-
+  `gatsby-plugin-anchor-links`
   ],
 };

@@ -13,7 +13,8 @@ const RecentWorkStyles = styled.section`
 
   .recent-work-description {
     font-size: 1.075rem;
-    margin-bottom: 1em;
+    /* margin-bottom: 1em; */
+    margin-bottom: 3em;
   }
 
   .see-all-link {
@@ -25,33 +26,33 @@ const RecentWorkStyles = styled.section`
 
 const RecentWork = () => {
   return (
-    <RecentWorkStyles>
+    <RecentWorkStyles id="work">
       <h2 className="sub-header">Recent Work</h2>
       <p className="recent-work-description">
         I'm a creative introvert. Lorem ipsum dolor sit amet, consectetur
         adipiscing elit. Cras consectetur vel ante vitae lacinia. Sed et ante a.{" "}
       </p>
-      <Link to="/portfolio" className="see-all-link">
+      {/* <Link to="/portfolio" className="see-all-link">
         See all work &rarr;
-      </Link>
+      </Link> */}
       <WorkPreview
         heading="Envision Wellness"
         description="Nulla commodo aliquet risus at pretium. Proin in sagittis metus, ut ultricies magna. Lorem eleifend venenatis quis eu ex."
-        link="envision-wellness"
+        link="https://trainwithnikki.net"
         img="EW_Portfolio.png"
         alt="Envision Wellness website desktop, tablet, and mobile landing page"
       />
       <WorkPreview
         heading="Crissy Stile"
         description="Nulla commodo aliquet risus at pretium. Proin in sagittis metus, ut ultricies magna. Lorem eleifend venenatis quis eu ex."
-        link="crissy-stile"
+        link="https://crissyforflorida.com"
         img="Crissy_Portfolio.png"
         alt="Crissy Stile's website landing page on a laptop"
       />
       <WorkPreview
         heading="Mollie Cunningham"
         description="Nulla commodo aliquet risus at pretium. Proin in sagittis metus, ut ultricies magna. Lorem eleifend venenatis quis eu ex."
-        link="mollie-cunningham"
+        link="https://molliecunningham.com"
         img="Mollie_Portfolio.png"
         alt="Mollie Cunningham's tablet and mobile landing page"
       />
@@ -59,7 +60,7 @@ const RecentWork = () => {
       <WorkPreview
         heading="Bowen & Schroth, P.A."
         description="Nulla commodo aliquet risus at pretium. Proin in sagittis metus, ut ultricies magna. Lorem eleifend venenatis quis eu ex."
-        link="bowen-schroth"
+        link="https://bowenschroth.com"
         img="Schroth_Portfolio.png"
         alt="Bowen & Schroth's website desktop and tablet landing page"
       />

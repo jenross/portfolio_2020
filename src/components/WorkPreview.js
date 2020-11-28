@@ -17,7 +17,16 @@ const WorkPreviewStyles = styled.div`
   }
 
   .work-link {
-    font-size: 1rem;
+    font-size: 0.9rem;
+    text-transform: uppercase; 
+    text-decoration: none; 
+    color: var(--black);
+    font-weight: semi-bold; 
+  }
+
+  .work-link:hover {
+    color: var(--purple);
+    border-bottom: 1px solid var(--purple);
   }
 
   .work-img {
@@ -33,9 +42,9 @@ const WorkPreview = ({ heading, description, link, img, alt }) => {
       <WorkImg filename={`${img}`} alt={`${alt}`} />
       <h3 className="work-header">{heading}</h3>
       <p className="work-description">{description}</p>
-      <Link to={`/${link}`} className="work-link">
-        Learn more &rarr;
-      </Link>
+      <a href={`${link}`} className="work-link" target="_blank" rel="noreferrer">
+        View live &rarr;
+      </a>
     </WorkPreviewStyles>
   );
 };

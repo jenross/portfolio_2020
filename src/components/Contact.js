@@ -17,12 +17,23 @@ const ContactStyles = styled.section`
 
   .mail-link {
     font-size: 1.075rem;
+    color: var(--black);
+    text-decoration: none; 
+    border-bottom: 2px solid var(--purple);
+    padding-bottom: 0.2em;
+  }
+
+  .mail-link:hover {
+ 
+    color: var(--purple);
+  
+    border-bottom: none;
   }
 `;
 
 const Contact = () => {
   return (
-    <ContactStyles>
+    <ContactStyles id="contact">
       <h2 className="sub-header">Contact</h2>
       <p className="contact-paragraph">
         I'm a creative introvert. Lorem ipsum dolor sit amet, consectetur

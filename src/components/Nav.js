@@ -3,6 +3,7 @@ import { Link, useStaticQuery, graphql } from "gatsby";
 import styled from "styled-components";
 import Logo from "../images/JR_Logo-02.png";
 import Img from "gatsby-image";
+import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 const HeaderStyles = styled.header`
   margin-bottom: 1.5em;
@@ -24,13 +25,23 @@ const NavStyles = styled.nav`
     font-size: 1.075rem;
   }
 
-  .each-nav-link {
-    color: var(--black);
-  }
-
   .nav-links li:first-child {
     padding-right: 1.5em;
   }
+
+  .nav-link {
+    color: var(--black);
+    text-decoration: none; 
+  }
+
+  .nav-link:hover {
+    color: var(--purple);
+    border-bottom: 1px solid var(--purple); 
+  }
+
+  /* .nav-link:visited {
+    color: var(--black);
+  } */
 `;
 
 const Nav = () => {
@@ -55,8 +66,22 @@ const Nav = () => {
         />
 
         <ul className="nav-links">
-          <li className="each-nav-link">Portfolio</li>
-          <li className="each-nav-link">Contact</li>
+          <li className="each-nav-link">
+            <AnchorLink 
+              to="/#work" 
+              title="Work" 
+              stripHash 
+              className="nav-link"
+            />
+          </li>
+          <li className="each-nav-link">
+            <AnchorLink 
+              to="/#contact" 
+              title="Contact" 
+              stripHash 
+              className="nav-link"
+            />
+          </li>
         </ul>
       </NavStyles>
     </HeaderStyles>

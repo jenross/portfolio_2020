@@ -11,7 +11,7 @@ const InstagramStyles = styled.section`
         flex-wrap: wrap;
         justify-content: space-between;
         margin: 1rem -0.5rem;
-        padding: 0.5rem;
+        /* padding: 0.5rem; */
     }
    
 
@@ -39,7 +39,7 @@ const InstagramStyles = styled.section`
 
   .insta-paragraph {
     font-size: 1.075rem;
-    margin-bottom: 1.75em;
+    margin-bottom: 1.5em;
   }
 
   .each-image {
@@ -50,9 +50,22 @@ const InstagramStyles = styled.section`
         }
   }
 
-    .see-more-link {
+    /* .see-more-link {
         font-size: 1.075rem;
-    }
+    } */
+
+      .see-more-link {
+    font-size: 0.9rem;
+    text-transform: uppercase; 
+    text-decoration: none; 
+    color: var(--black);
+    font-weight: semi-bold; 
+  }
+
+  .see-more-link:hover {
+    color: var(--purple);
+    border-bottom: 1px solid var(--purple);
+  }
 
 `;
 
@@ -63,7 +76,7 @@ const Instagram = () => {
 
   return (
     <InstagramStyles>
-      <h2 className="sub-header">Insta</h2>
+      <h2 className="sub-header">Insta Insights</h2>
       <p className="insta-paragraph">
         I'm a creative introvert. Lorem ipsum dolor sit amet, consectetur
         adipiscing elit. Cras consectetur vel ante vitae lacinia. Sed et ante a.{" "}
