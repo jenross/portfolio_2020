@@ -13,8 +13,14 @@ const LayoutStyles = styled.div`
   @media (min-width: 700px) {
     padding: 1.5em 2.5em;
   }
-  @media (min-width: 850px) {
-    padding: 1.5em 3.5em;
+  @media (min-width: 768px) {
+    max-width: 720px;
+  }
+  @media (min-width: 992px) {
+    max-width: 960px;
+  }
+  @media (min-width: 1200px) {
+    max-width: 1140px;
   }
 `;
 

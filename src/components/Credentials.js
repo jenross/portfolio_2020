@@ -16,7 +16,7 @@ const CredentialsStyles = styled.section`
 
   .credentials-paragraph {
     font-size: 1.075rem;
-    max-width: 750px;
+    max-width: 1140px;
     /* @media (min-width: 625px) {
       font-size: 1.3rem;
     } */

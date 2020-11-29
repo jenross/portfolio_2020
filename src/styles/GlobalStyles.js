@@ -15,6 +15,9 @@ const GlobalStyles = createGlobalStyle`
     @media (min-width: 625px) {
       font-size: 20px; 
     }
+    @media (min-width: 1200px) {
+      font-size: 24px;
+    }
   }
   *,
   *::before,

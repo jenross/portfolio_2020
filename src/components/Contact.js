@@ -16,7 +16,7 @@ const ContactStyles = styled.section`
   .contact-paragraph {
     font-size: 1.075rem;
     margin-bottom: 1.75em;
-    max-width: 750px;
+    max-width: 1140px;
     /* @media (min-width: 625px) {
       font-size: 1.3rem;
     } */

@@ -7,6 +7,9 @@ import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 const HeaderStyles = styled.header`
   margin-bottom: 1.5em;
+  @media (min-width: 1200px) {
+    margin-bottom: 2em;
+  }
   /* @media (min-width: 625px) {
     margin-bottom: 3.5em;
   } */

@@ -17,7 +17,7 @@ const RecentWorkStyles = styled.section`
   .recent-work-description {
     font-size: 1.075rem;
     margin-bottom: 1em;
-    max-width: 750px;
+    max-width: 1140px;
     /* @media (min-width: 625px) {
       font-size: 1.3rem;
     } */
