@@ -7,16 +7,16 @@ import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 const HeaderStyles = styled.header`
   margin-bottom: 1.5em;
-  @media (min-width: 625px) {
+  /* @media (min-width: 625px) {
     margin-bottom: 3.5em;
-  }
+  } */
 `;
 
 const NavStyles = styled.nav`
   display: flex;
   justify-content: space-between;
   .hero-logo {
-    left: -1.5em;
+    left: -1.3em;
   }
 
   .nav-links {

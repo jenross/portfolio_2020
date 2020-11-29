@@ -17,24 +17,24 @@ const RecentWorkStyles = styled.section`
   .recent-work-description {
     font-size: 1.075rem;
     margin-bottom: 1em;
-    max-width: 600px;
+    max-width: 750px;
     /* @media (min-width: 625px) {
       font-size: 1.3rem;
     } */
-    @media (min-width: 700px) {
+    /* @media (min-width: 700px) {
       display: flex;
       flex-direction: column;
       align-items: center;
-    }
+    } */
   }
 
-  @media (min-width: 700px) {
+  /* @media (min-width: 700px) {
     .recent-work-container {
       display: flex;
       flex-direction: column;
       align-items: center;
     }
-  }
+  } */
 
   /* .see-all-link {
     font-size: 1.075rem;
@@ -58,7 +58,7 @@ const RecentWork = () => {
         <WorkPreview
           heading="Envision Wellness"
           description="A custom Gatsby site for Lake County personal trainer Nikki Van Culin. In addition to the site, I created her Google forms (for intake, waivers, and weekly booking) and a weekly email newsletter with integrated branding."
-          testimonial='"Jen Ross went above and beyond my expectations! She built my small business a website that is easy to use and helps my current and potential customers get a good feel for me and the services I offer. She was very professional, with great attention to detail, and her husband even helped me create beautiful business cards and flyers. I highly recommend her, especially if you expect fast and personalized customer service!"'
+          testimonial='"Jen Ross went above and beyond my expectations! She built my small business a website that is easy to use and helps my current and potential customers get a good feel for me and the services I offer. She was very professional, with great attention to detail. I highly recommend her, especially if you expect fast and personalized customer service!"'
           attribution="-Nikki Van Culin"
           link="https://trainwithnikki.net"
           img="EW_Portfolio.png"

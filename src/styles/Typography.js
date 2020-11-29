@@ -34,6 +34,10 @@ const Typography = createGlobalStyle`
   .inline-block {
     display: inline-block;
   }
+
+  .block {
+    display: block; 
+  }
   
 `;
 

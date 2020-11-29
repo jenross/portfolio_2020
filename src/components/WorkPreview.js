@@ -18,7 +18,7 @@ const WorkPreviewStyles = styled.div`
   .work-description {
     font-size: 1rem;
     margin-bottom: 2em;
-    max-width: 600px;
+    max-width: 750px;
     /* @media (min-width: 625px) {
       font-size: 1.15rem;
     } */
@@ -49,12 +49,12 @@ const WorkPreviewStyles = styled.div`
       transform: translateY(-1px);
       box-shadow: 0px 2px 4px rgba(79, 79, 79, 0.25);
     }
-    @media (min-width: 625px) {
-      width: 500px;
-    }
-    @media (min-width: 700px) {
+    /* @media (min-width: 625px) {
+      max-width: 550px;
+    } */
+    /* @media (min-width: 700px) {
       width: 575px;
-    }
+    } */
   }
 
   .work-testimonial,
@@ -62,7 +62,7 @@ const WorkPreviewStyles = styled.div`
     font-style: italic;
     color: var(--black);
     font-weight: bold;
-    max-width: 600px;
+    max-width: 750px;
     /* @media (min-width: 625px) {
       font-size: 1.15rem;
     } */

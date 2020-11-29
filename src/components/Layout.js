@@ -10,7 +10,10 @@ const LayoutStyles = styled.div`
   padding: 1.5em;
   margin: auto;
   min-height: 100vh;
-  @media (min-width: 625px) {
+  @media (min-width: 700px) {
+    padding: 1.5em 2.5em;
+  }
+  @media (min-width: 850px) {
     padding: 1.5em 3.5em;
   }
 `;

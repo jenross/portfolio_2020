@@ -16,7 +16,7 @@ const CredentialsStyles = styled.section`
 
   .credentials-paragraph {
     font-size: 1.075rem;
-    max-width: 600px;
+    max-width: 750px;
     /* @media (min-width: 625px) {
       font-size: 1.3rem;
     } */
@@ -49,7 +49,7 @@ const CredentialsStyles = styled.section`
     text-align: center;
   }
 
-  @media (min-width: 749px) {
+  @media (min-width: 666px) {
     .credentials-img-container {
       justify-content: space-between;
     }
