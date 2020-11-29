@@ -18,10 +18,10 @@ const WorkPreviewStyles = styled.div`
 
   .work-link {
     font-size: 0.9rem;
-    text-transform: uppercase; 
-    text-decoration: none; 
+    text-transform: uppercase;
+    text-decoration: none;
     color: var(--black);
-    font-weight: semi-bold; 
+    font-weight: semi-bold;
   }
 
   .work-link:hover {
@@ -32,19 +32,75 @@ const WorkPreviewStyles = styled.div`
   .work-img {
     border-radius: 4px;
     box-shadow: 0 0 10px #ddd;
-    margin-top: 2.5em;
+    /* margin-top: 1.7em; */
+    margin-bottom: 1.7em;
+    &:hover {
+      transform: translateY(-1px);
+      box-shadow: 0px 2px 4px rgba(79, 79, 79, 0.25);
+    }
+  }
+
+  .work-testimonial,
+  .work-attribution {
+    font-style: italic;
+  }
+  .work-testimonial {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .work-attribution {
+    margin-top: 0;
+    padding-top: 0.5em;
+    margin-bottom: 3.5em;
   }
 `;
 
-const WorkPreview = ({ heading, description, link, img, alt }) => {
+const WorkPreview = ({
+  heading,
+  description,
+  link,
+  img,
+  alt,
+  testimonial,
+  attribution,
+}) => {
   return (
     <WorkPreviewStyles>
-      <WorkImg filename={`${img}`} alt={`${alt}`} />
+      <a
+        href={`${link}`}
+        className="work-link"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <WorkImg filename={`${img}`} alt={`${alt}`} />
+      </a>
       <h3 className="work-header">{heading}</h3>
       <p className="work-description">{description}</p>
-      <a href={`${link}`} className="work-link" target="_blank" rel="noreferrer">
-        View live &rarr;
-      </a>
+      {/* <a
+        href={`${link}`}
+        className="work-link"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <WorkImg filename={`${img}`} alt={`${alt}`} />
+      </a> */}
+      {/* <h3 className="work-header">{heading}</h3> */}
+      {/* <p className="work-description">{description}</p> */}
+      {testimonial && (
+        <p className="work-description work-testimonial">{testimonial}</p>
+      )}
+      {attribution && (
+        <p className="work-description work-attribution">{attribution}</p>
+      )}
+      {/* <a
+        href={`${link}`}
+        className="work-link"
+        target="_blank"
+        rel="noreferrer"
+      >
+        View site &rarr;
+      </a> */}
     </WorkPreviewStyles>
   );
 };
