@@ -1,7 +1,6 @@
-import React from 'react';
-import { StaticQuery, graphql } from 'gatsby';
-import Img from 'gatsby-image';
-
+import React from "react";
+import { StaticQuery, graphql } from "gatsby";
+import Img from "gatsby-image";
 
 const Image = ({ filename, alt }) => (
   <StaticQuery
@@ -22,16 +21,21 @@ const Image = ({ filename, alt }) => (
         }
       }
     `}
-    render={data => {
-      const image = data.images.edges.find(n => {
+    render={(data) => {
+      const image = data.images.edges.find((n) => {
         return n.node.relativePath.includes(filename);
       });
       if (!image) {
         return null;
       }
 
-     
-      return <Img className="work-img" alt={alt} fluid={image.node.childImageSharp.fluid} />;
+      return (
+        <Img
+          className="work-img gatsby-image-wrapper"
+          alt={alt}
+          fluid={image.node.childImageSharp.fluid}
+        />
+      );
     }}
   />
 );
