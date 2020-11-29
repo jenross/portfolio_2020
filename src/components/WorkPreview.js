@@ -14,6 +14,7 @@ const WorkPreviewStyles = styled.div`
 
   .work-description {
     font-size: 1rem;
+    margin-bottom: 2em;
   }
 
   .work-link {
@@ -43,6 +44,8 @@ const WorkPreviewStyles = styled.div`
   .work-testimonial,
   .work-attribution {
     font-style: italic;
+    color: var(--black);
+    font-weight: bold;
   }
   .work-testimonial {
     margin-bottom: 0;
@@ -77,30 +80,13 @@ const WorkPreview = ({
       </a>
       <h3 className="work-header">{heading}</h3>
       <p className="work-description">{description}</p>
-      {/* <a
-        href={`${link}`}
-        className="work-link"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <WorkImg filename={`${img}`} alt={`${alt}`} />
-      </a> */}
-      {/* <h3 className="work-header">{heading}</h3> */}
-      {/* <p className="work-description">{description}</p> */}
+
       {testimonial && (
         <p className="work-description work-testimonial">{testimonial}</p>
       )}
       {attribution && (
         <p className="work-description work-attribution">{attribution}</p>
       )}
-      {/* <a
-        href={`${link}`}
-        className="work-link"
-        target="_blank"
-        rel="noreferrer"
-      >
-        View site &rarr;
-      </a> */}
     </WorkPreviewStyles>
   );
 };

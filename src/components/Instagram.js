@@ -77,10 +77,10 @@ const Instagram = () => {
   return (
     <InstagramStyles>
       <h2 className="sub-header">Insta Insights</h2>
-      <p className="insta-paragraph">
+      {/* <p className="insta-paragraph">
         I'm a creative introvert. Lorem ipsum dolor sit amet, consectetur
         adipiscing elit. Cras consectetur vel ante vitae lacinia. Sed et ante a.{" "}
-      </p>
+      </p> */}
       <div className="post-container">
        {instaPhotos.map(photo => (
           <a

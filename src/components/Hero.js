@@ -116,8 +116,8 @@ const Hero = () => {
         and assist UCF Coding Boot Camp students this year.
       </p>
       <p className="hero-content">
-        I’m seeking a full-time role where I can help a company achieve their
-        goals. I'd love to{" "}
+        I’m seeking a full-time or temporary contract role that will allow me to
+        help a company achieve their goals. I'd love to{" "}
         <AnchorLink to="/#contact" title="chat more" stripHash /> about my
         experience in person or virtually.
       </p>

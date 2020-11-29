@@ -18,15 +18,14 @@ const ContactStyles = styled.section`
   .mail-link {
     font-size: 1.075rem;
     color: var(--black);
-    text-decoration: none; 
+    text-decoration: none;
     border-bottom: 2px solid var(--purple);
     padding-bottom: 0.2em;
   }
 
   .mail-link:hover {
- 
     color: var(--purple);
-  
+
     border-bottom: none;
   }
 `;
@@ -36,8 +35,9 @@ const Contact = () => {
     <ContactStyles id="contact">
       <h2 className="sub-header">Contact</h2>
       <p className="contact-paragraph">
-        I'm a creative introvert. Lorem ipsum dolor sit amet, consectetur
-        adipiscing elit. Cras consectetur vel ante vitae lacinia. Sed et ante a.{" "}
+        If you think I would be a good fit for a role at your company or have a
+        project idea you'd like to discuss, please send me an email and I will
+        follow up within 24 hours.{" "}
       </p>
       <a href="mailto:hey@jenniferross.tech" className="mail-link">
         hey@jenniferross.tech

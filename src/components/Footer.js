@@ -73,6 +73,13 @@ const Footer = () => {
             }
           }
         },
+        linkedin: file(relativePath: { eq: "linkedin.png" }) {
+          childImageSharp {
+            fixed(width: 36, height: 36) {
+              ...GatsbyImageSharpFixed
+            }
+          }
+        },
       }
   `);
   return (
@@ -94,6 +101,15 @@ const Footer = () => {
                   className="each-social gatsby-image-wrapper" 
                   fixed={data.github.childImageSharp.fixed}
                   alt="Jennifer Ross' Github profile"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/jennifer-ross-221490121/" target="_blank" rel="noreferrer">
+              <Img 
+                  className="each-social gatsby-image-wrapper" 
+                  fixed={data.linkedin.childImageSharp.fixed}
+                  alt="Jennifer Ross' LinkedIn profile"
               />
             </a>
           </li>

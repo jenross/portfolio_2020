@@ -37,7 +37,7 @@ const RecentWork = () => {
       </Link> */}
       <WorkPreview
         heading="Envision Wellness"
-        description="A custom Gatsby site for Lake County personal trainer Nikki Van Culin. In addition to site, integrated branding with Google forms (intake, waiver, and weekly booking), and a weekly email newsletter."
+        description="A custom Gatsby site for Lake County personal trainer Nikki Van Culin. In addition to the site, I created her Google forms (for intake, waivers, and weekly booking) and a weekly email newsletter with integrated branding."
         testimonial='"I would recommend Jen for all of your web hosting, design and social media needs. Jen listened to what I wanted and kept me in the loop through her entire creative process. She made great suggestions without being pushy and ultimately created exactly the website I wanted."'
         attribution="-Nikki Van Culin"
         link="https://trainwithnikki.net"
@@ -46,7 +46,7 @@ const RecentWork = () => {
       />
       <WorkPreview
         heading="Crissy Stile"
-        description="Custom website redesign for Crissy Stile, a 2020 candidate for Florida House District 31."
+        description="Custom website redesign for Crissy Stile, a 2020 candidate for Florida House District 31. The site currently shows a temporary placeholder landing page and will be updated again next year."
         testimonial='"I would recommend Jen for all of your web hosting, design and social media needs. Jen listened to what I wanted and kept me in the loop through her entire creative process. She made great suggestions without being pushy and ultimately created exactly the website I wanted."'
         attribution="-Crissy Stile"
         link="https://crissyforflorida.com"
@@ -55,7 +55,7 @@ const RecentWork = () => {
       />
       <WorkPreview
         heading="Mollie Cunningham"
-        description="Nulla commodo aliquet risus at pretium. Proin in sagittis metus, ut ultricies magna. Lorem eleifend venenatis quis eu ex."
+        description="A custom Gatsby site for Lake County School Board District 4 candidate Mollie Cunningham. The volunteer and contact form submissions are handled by Netlify Forms and integrated with Zapier to go straight to the candidate's email. I also set up and integrated Anedot for campaign donations and helped run Mrs. Cunningham's social media marketing campaigns."
         testimonial='"I would recommend Jen for all of your web hosting, design and social media needs. Jen listened to what I wanted and kept me in the loop through her entire creative process. She made great suggestions without being pushy and ultimately created exactly the website I wanted."'
         attribution="-Mollie Cunningham"
         link="https://molliecunningham.com"
@@ -65,7 +65,7 @@ const RecentWork = () => {
 
       <WorkPreview
         heading="Bowen & Schroth, P.A."
-        description="Nulla commodo aliquet risus at pretium. Proin in sagittis metus, ut ultricies magna. Lorem eleifend venenatis quis eu ex."
+        description="A custom WordPress theme for prominent Eustis law firm Bowen & Schroth, P.A. I started with the barebones Underscores starter theme and created a more modern and accessibility-focused site tailored to the firm's needs."
         testimonial='"Jennifer Ross surpassed our firm’s high expectations for our new website. She is thorough and creative. We highly recommend her."'
         attribution="-Derek Schroth"
         link="https://bowenschroth.com"
