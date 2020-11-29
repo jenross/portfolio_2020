@@ -33,7 +33,6 @@ const WorkPreviewStyles = styled.div`
   .work-img {
     border-radius: 4px;
     box-shadow: 0 0 10px #ddd;
-    /* margin-top: 1.7em; */
     margin-bottom: 1.7em;
     &:hover {
       transform: translateY(-1px);

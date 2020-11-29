@@ -3,7 +3,7 @@ import { Link, useStaticQuery, graphql } from "gatsby";
 import styled from "styled-components";
 import CredentialsImg from "./CredentialsImg";
 
-const SkillsStyles = styled.section`
+const CredentialsStyles = styled.section`
   .sub-header {
     line-height: 1.3em;
     margin-top: 1.9em;
@@ -11,27 +11,10 @@ const SkillsStyles = styled.section`
     font-size: 2rem;
   }
 
-  .skills-paragraph {
+  .credentials-paragraph {
     font-size: 1.075rem;
     margin-bottom: 1.75em;
   }
-
-  .skills-list {
-  }
-
-  .skills-list-each {
-    padding-bottom: 1.5em;
-  }
-
-  .skills-list-each:last-child {
-    padding-bottom: 0;
-    margin-bottom: 0;
-  }
-
-  /* .credentials-img {
-    width: 350px;
-    height: auto;
-  } */
 
   .credentials-img-container {
     display: flex;
@@ -44,9 +27,6 @@ const SkillsStyles = styled.section`
     margin-top: -2em;
     margin-bottom: 2em;
   }
-  /* .credential-img:nth-child(1) {
-    margin-bottom: 2em;
-  } */
 
   .credential-links:nth-child(2) {
     text-decoration: none;
@@ -60,11 +40,11 @@ const SkillsStyles = styled.section`
   }
 `;
 
-const Focus = () => {
+const Credentials = () => {
   return (
-    <SkillsStyles>
+    <CredentialsStyles>
       <h2 className="sub-header">Credentials</h2>
-      <p className="skills-paragraph">
+      <p className="credentials-paragraph">
         I graduated from the UCF Coding Boot Camp in 2019 and recently completed
         the "Fundamentals of Digital Marketing" certification exam offered by
         Google Digital Garage. I have also been preparing for the IAAP WAS (Web
@@ -96,22 +76,8 @@ const Focus = () => {
           <p className="credential-id">Credential ID: 8VY UTD 8F5</p>
         </a>
       </div>
-      {/* <ul className="skills-list">
-        <li className="skills-list-each">JavaScript</li>
-        <li className="skills-list-each">React & Gatsby</li>
-        <li className="skills-list-each">HTML5</li>
-        <li className="skills-list-each">CSS, Sass, & Styled Components</li>
-        <li className="skills-list-each">Accessibility</li>
-        <li className="skills-list-each">Git</li>
-        <li className="skills-list-each">PHP</li>
-        <li className="skills-list-each">SQL & GraphQL</li>
-        <li className="skills-list-each">GreenSock & Framer Motion</li>
-        <li className="skills-list-each">WordPress & Sanity</li>
-        <li className="skills-list-each">SEO</li>
-        <li className="skills-list-each">Figma</li>
-      </ul> */}
-    </SkillsStyles>
+    </CredentialsStyles>
   );
 };
 
-export default Focus;
+export default Credentials;
