@@ -10,9 +10,9 @@ const FooterStyles = styled.footer`
 
   p {
     color: var(--black);
-    @media (min-width: 625px) {
+    /* @media (min-width: 625px) {
       font-size: 1.15rem;
-    }
+    } */
   }
 
   .social-icons {

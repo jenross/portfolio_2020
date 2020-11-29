@@ -26,9 +26,9 @@ const NavStyles = styled.nav`
     display: flex;
     align-self: center;
     font-size: 1.075rem;
-    @media (min-width: 625px) {
+    /* @media (min-width: 625px) {
       font-size: 1.3rem;
-    }
+    } */
   }
 
   .nav-links li:first-child {

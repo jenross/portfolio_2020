@@ -6,6 +6,12 @@ import Img from "gatsby-image";
 import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 const HeroStyles = styled.section`
+  @media (min-width: 700px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   a {
     color: var(--paragraph);
     text-decoration: none;
@@ -21,22 +27,28 @@ const HeroStyles = styled.section`
   .hero-header {
     margin-bottom: 0.75em;
     line-height: 1.3em;
-
+/* 
     @media (min-width: 500px) {
       font-size: 2.7rem;
     }
 
     @media (min-width: 625px) {
       font-size: 3rem;
-    }
+    } */
+
+
   }
 
   .hero-content {
     margin-bottom: 1.75em;
     font-size: 1.075rem;
-    @media (min-width: 625px) {
+    max-width: 600px;
+    /* @media (min-width: 625px) {
       font-size: 1.3rem;
     }
+    @media (min-width: 700px) {
+      margin-bottom: 0.8em;
+    } */
   }
 
   .hero-content:last-child {
@@ -51,9 +63,12 @@ const HeroStyles = styled.section`
     @media (min-width: 625px) {
       width: 500px;
     }
+    @media (min-width: 700px) {
+      width: 575px;
+    }
   }
 
-  /* @media (min-width: 625px) {
+  /* @media (min-width: 700px) {
     #inline {
       display: inline;
     }
@@ -81,7 +96,7 @@ const Hero = () => {
       <h1 className="hero-header">
         <span className="inline-block">Hi, I'm Jennifer Ross.</span>
         <span className="inline-block">
-          Full Stack <span className="purple">Developer &nbsp;</span>
+          Full Stack <span className="purple">Developer&nbsp;</span>
         </span>
         <span id="inline" className="inline-block">
           & UI <span className="purple">Designer</span>.

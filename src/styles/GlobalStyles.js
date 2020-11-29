@@ -12,6 +12,9 @@ const GlobalStyles = createGlobalStyle`
 
   html {
     box-sizing: border-box;
+    @media (min-width: 625px) {
+      font-size: 20px; 
+    }
   }
   *,
   *::before,
@@ -35,6 +38,13 @@ const GlobalStyles = createGlobalStyle`
     width: 35%;
     border-top: 3px solid var(--purple);
     margin-top: 4.5em;
+  }
+
+  .sub-header {
+    font-size: 2rem;
+    /* @media (min-width: 625px) {
+      font-size: 2.7rem;
+    } */
   }
  /*
  * Hide only visually, but have it available for screen readers:
