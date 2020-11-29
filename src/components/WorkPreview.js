@@ -10,11 +10,17 @@ const WorkPreviewStyles = styled.div`
     margin-bottom: 0.5em;
     font-size: 1.7rem;
     font-weight: semi-bold;
+    @media (min-width: 625px) {
+      font-size: 2.4rem;
+    }
   }
 
   .work-description {
     font-size: 1rem;
     margin-bottom: 2em;
+    @media (min-width: 625px) {
+      font-size: 1.15rem;
+    }
   }
 
   .work-link {
@@ -23,6 +29,9 @@ const WorkPreviewStyles = styled.div`
     text-decoration: none;
     color: var(--black);
     font-weight: semi-bold;
+    @media (min-width: 625px) {
+      font-size: 1rem;
+    }
   }
 
   .work-link:hover {
@@ -45,7 +54,11 @@ const WorkPreviewStyles = styled.div`
     font-style: italic;
     color: var(--black);
     font-weight: bold;
+    @media (min-width: 625px) {
+      font-size: 1.15rem;
+    }
   }
+
   .work-testimonial {
     margin-bottom: 0;
     padding-bottom: 0;

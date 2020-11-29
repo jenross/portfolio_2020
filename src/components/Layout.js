@@ -10,6 +10,10 @@ const LayoutStyles = styled.div`
   padding: 1.5em;
   margin: auto;
   min-height: 100vh;
+  @media (min-width: 625px) {
+    padding: 1.5em 3.5em;
+    
+  }
 `;
 
 export default function Layout({ children }) {

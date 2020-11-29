@@ -7,6 +7,9 @@ import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 const HeaderStyles = styled.header`
   margin-bottom: 1.5em;
+  @media (min-width: 625px) {
+    margin-bottom: 3.5em;
+  }
 `;
 
 const NavStyles = styled.nav`
@@ -23,6 +26,9 @@ const NavStyles = styled.nav`
     display: flex;
     align-self: center;
     font-size: 1.075rem;
+    @media (min-width: 625px) {
+      font-size: 1.3rem;
+    }
   }
 
   .nav-links li:first-child {
@@ -31,17 +37,13 @@ const NavStyles = styled.nav`
 
   .nav-link {
     color: var(--black);
-    text-decoration: none; 
+    text-decoration: none;
   }
 
   .nav-link:hover {
     color: var(--purple);
-    border-bottom: 1px solid var(--purple); 
+    border-bottom: 1px solid var(--purple);
   }
-
-  /* .nav-link:visited {
-    color: var(--black);
-  } */
 `;
 
 const Nav = () => {
@@ -67,18 +69,18 @@ const Nav = () => {
 
         <ul className="nav-links">
           <li className="each-nav-link">
-            <AnchorLink 
-              to="/#work" 
-              title="Work" 
-              stripHash 
+            <AnchorLink
+              to="/#work"
+              title="Work"
+              stripHash
               className="nav-link"
             />
           </li>
           <li className="each-nav-link">
-            <AnchorLink 
-              to="/#contact" 
-              title="Contact" 
-              stripHash 
+            <AnchorLink
+              to="/#contact"
+              title="Contact"
+              stripHash
               className="nav-link"
             />
           </li>

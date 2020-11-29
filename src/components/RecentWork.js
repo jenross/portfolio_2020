@@ -9,19 +9,24 @@ const RecentWorkStyles = styled.section`
     margin-top: 1.9em;
     margin-bottom: 0.5em;
     font-size: 2rem;
+    @media (min-width: 625px) {
+      font-size: 2.7rem;
+    }
   }
 
   .recent-work-description {
     font-size: 1.075rem;
-    /* margin-bottom: 1em; */
     margin-bottom: 3em;
+    @media (min-width: 625px) {
+      font-size: 1.3rem;
+    }
   }
 
-  .see-all-link {
+  /* .see-all-link {
     font-size: 1.075rem;
     margin-bottom: 3em;
     font-weight: semi-bold;
-  }
+  } */
 `;
 
 const RecentWork = () => {

@@ -8,11 +8,17 @@ const ContactStyles = styled.section`
     margin-top: 1.9em;
     margin-bottom: 0.5em;
     font-size: 2rem;
+    @media (min-width: 625px) {
+      font-size: 2.7rem;
+    }
   }
 
   .contact-paragraph {
     font-size: 1.075rem;
     margin-bottom: 1.75em;
+    @media (min-width: 625px) {
+      font-size: 1.3rem;
+    }
   }
 
   .mail-link {
@@ -21,6 +27,9 @@ const ContactStyles = styled.section`
     text-decoration: none;
     border-bottom: 2px solid var(--purple);
     padding-bottom: 0.2em;
+    @media (min-width: 625px) {
+      font-size: 1.3rem;
+    }
   }
 
   .mail-link:hover {

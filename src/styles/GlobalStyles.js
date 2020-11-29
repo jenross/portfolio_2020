@@ -8,31 +8,17 @@ const GlobalStyles = createGlobalStyle`
     --white: #FCFCFC;
     --gray: #C4C4C4;
     --paragraph: #696969;
-    --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
   }
 
   html {
     box-sizing: border-box;
   }
   *,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
 
-  body {
-  }
-  fieldset {
-  
-  }
-  button {
- 
-    cursor: pointer;
- 
-    &:hover {
-      
-    }
-  }
 
   .gatsby-image-wrapper img[src*=base64] {
     image-rendering: -moz-crisp-edges;
