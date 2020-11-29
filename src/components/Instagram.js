@@ -16,9 +16,6 @@ const InstagramStyles = styled.section`
     line-height: 1.3em;
     margin-top: 1.9em;
     font-size: 2rem;
-    /* @media (min-width: 625px) {
-      font-size: 2.7rem;
-    } */
   }
 
   .each-post {
@@ -50,9 +47,6 @@ const InstagramStyles = styled.section`
     text-decoration: none;
     color: var(--black);
     font-weight: semi-bold;
-    /* @media (min-width: 625px) {
-      font-size: 1.15rem;
-    } */
   }
 
   .see-more-link:hover {

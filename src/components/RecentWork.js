@@ -9,38 +9,31 @@ const RecentWorkStyles = styled.section`
     margin-top: 1.9em;
     margin-bottom: 0.5em;
     font-size: 2rem;
-    /* @media (min-width: 625px) {
-      font-size: 2.7rem;
-    } */
   }
 
   .recent-work-description {
     font-size: 1.075rem;
     margin-bottom: 1em;
     max-width: 1140px;
-    /* @media (min-width: 625px) {
-      font-size: 1.3rem;
-    } */
-    /* @media (min-width: 700px) {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    } */
   }
-
-  /* @media (min-width: 700px) {
-    .recent-work-container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-  } */
 
   /* .see-all-link {
     font-size: 1.075rem;
     margin-bottom: 3em;
     font-weight: semi-bold;
   } */
+
+  @media (min-width: 992px) {
+    .recent-work-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .work-section {
+      flex-basis: 45%;
+    }
+  }
 `;
 
 const RecentWork = () => {
@@ -76,7 +69,7 @@ const RecentWork = () => {
         <WorkPreview
           heading="Mollie Cunningham"
           description="A custom Gatsby site for Lake County School Board District 4 candidate Mollie Cunningham. The volunteer and contact form submissions are handled by Netlify Forms and integrated with Zapier to go straight to the candidate's email. I also set up and integrated Anedot for campaign donations and helped run Mrs. Cunningham's social media marketing campaigns."
-          testimonial='"I would recommend Jen for all of your web hosting, design and social media needs. Jen listened to what I wanted and kept me in the loop through her entire creative process. She made great suggestions without being pushy and ultimately created exactly the website I wanted."'
+          testimonial='"Jen did a wonderful job on my campaign website and social media campaigns. Without her digital marketing assistance, I do not think I would have been elected to the Lake County School Board."'
           attribution="-Mollie Cunningham"
           link="https://molliecunningham.com"
           img="Mollie_Portfolio.png"

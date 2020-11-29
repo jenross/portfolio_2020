@@ -2,7 +2,6 @@ import React from "react";
 import { Link, useStaticQuery, graphql } from "gatsby";
 import styled from "styled-components";
 import Logo from "../images/JR_Logo-02.png";
-// import Profile from "../images/profile.jpg";
 import Img from "gatsby-image";
 
 const FooterStyles = styled.footer`
@@ -10,9 +9,6 @@ const FooterStyles = styled.footer`
 
   p {
     color: var(--black);
-    /* @media (min-width: 625px) {
-      font-size: 1.15rem;
-    } */
   }
 
   .social-icons {

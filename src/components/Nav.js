@@ -10,9 +10,6 @@ const HeaderStyles = styled.header`
   @media (min-width: 1200px) {
     margin-bottom: 2em;
   }
-  /* @media (min-width: 625px) {
-    margin-bottom: 3.5em;
-  } */
 `;
 
 const NavStyles = styled.nav`
@@ -29,9 +26,6 @@ const NavStyles = styled.nav`
     display: flex;
     align-self: center;
     font-size: 1.075rem;
-    /* @media (min-width: 625px) {
-      font-size: 1.3rem;
-    } */
   }
 
   .nav-links li:first-child {

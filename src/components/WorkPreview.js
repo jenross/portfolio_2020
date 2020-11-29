@@ -10,18 +10,12 @@ const WorkPreviewStyles = styled.div`
     margin-bottom: 0.5em;
     font-size: 1.7rem;
     font-weight: semi-bold;
-    /* @media (min-width: 625px) {
-      font-size: 2.4rem;
-    } */
   }
 
   .work-description {
     font-size: 1rem;
     margin-bottom: 2em;
     max-width: 750px;
-    /* @media (min-width: 625px) {
-      font-size: 1.15rem;
-    } */
   }
 
   .work-link {
@@ -30,9 +24,6 @@ const WorkPreviewStyles = styled.div`
     text-decoration: none;
     color: var(--black);
     font-weight: semi-bold;
-    /* @media (min-width: 625px) {
-      font-size: 1rem;
-    } */
   }
 
   .work-link:hover {
@@ -49,12 +40,6 @@ const WorkPreviewStyles = styled.div`
       transform: translateY(-1px);
       box-shadow: 0px 2px 4px rgba(79, 79, 79, 0.25);
     }
-    /* @media (min-width: 625px) {
-      max-width: 550px;
-    } */
-    /* @media (min-width: 700px) {
-      width: 575px;
-    } */
   }
 
   .work-testimonial,
