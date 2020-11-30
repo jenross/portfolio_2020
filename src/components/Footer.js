@@ -36,10 +36,10 @@ const FooterStyles = styled.footer`
     padding-right: 0;
   }
 
-  .social-icons img {
+  /* .social-icons img {
     width: 36px;
     height: 36px; 
-  }
+  } */
 `;
 
 const Footer = () => {
@@ -92,18 +92,22 @@ const Footer = () => {
             rel="noreferrer"
           >
             <img
-              className="each-social gatsby-image-wrapper"
+              className="each-social"
               src={email}
               alt="Jennifer Ross' email hey@jenniferross.tech"
+              width="36px"
+              height="36px"
             />
           </a>
         </li>
         <li>
           <a href="https://github.com/jenross" target="_blank" rel="noreferrer">
             <img
-              className="each-social gatsby-image-wrapper"
+              className="each-social"
               src={github}
               alt="Jennifer Ross' Github profile"
+              width="36px"
+              height="36px"
             />
           </a>
         </li>
@@ -114,9 +118,11 @@ const Footer = () => {
             rel="noreferrer"
           >
             <img
-              className="each-social gatsby-image-wrapper"
+              className="each-social"
               src={linkedin}
               alt="Jennifer Ross' LinkedIn profile"
+              width="36px"
+              height="36px"
             />
           </a>
         </li>
@@ -127,9 +133,11 @@ const Footer = () => {
             rel="noreferrer"
           >
             <img
-              className="each-social gatsby-image-wrapper"
+              className="each-social"
               src={twitter}
               alt="Jennifer Ross' Twitter profile"
+              width="36px"
+              height="36px"
             />
           </a>
         </li>
@@ -140,9 +148,11 @@ const Footer = () => {
             rel="noreferrer"
           >
             <img
-              className="each-social gatsby-image-wrapper"
+              className="each-social"
               src={instagram}
               alt="Jennifer Ross' Instagram profile"
+              width="36px"
+              height="36px"
             />
           </a>
         </li>

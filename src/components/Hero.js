@@ -1,7 +1,6 @@
 import React from "react";
 import { Link, useStaticQuery, graphql } from "gatsby";
 import styled from "styled-components";
-import Profile from "../images/profile.jpg";
 import Img from "gatsby-image";
 import { AnchorLink } from "gatsby-plugin-anchor-links";
 
@@ -47,28 +46,14 @@ const HeroStyles = styled.section`
   .hero-profile2 {
     border-radius: 4px;
     box-shadow: 0 0 10px #ddd;
-    /* display: none; */
-    @media (min-width: 750px) {
-      display: block;
-    }
+ 
   }
 `;
 
 const Hero = () => {
   const data = useStaticQuery(graphql`
     query {
-      profile: file(relativePath: { eq: "profile.jpg" }) {
-        childImageSharp {
-          fluid {
-            aspectRatio
-            base64
-            src
-            sizes
-            srcSet
-          }
-        }
-      }
-      profile2: file(relativePath: { eq: "jen_landscape_cropped.png" }) {
+      profile2: file(relativePath: { eq: "jen_landscape_1850.jpg" }) {
         childImageSharp {
           fluid {
             aspectRatio

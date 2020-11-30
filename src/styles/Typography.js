@@ -1,14 +1,12 @@
 import { createGlobalStyle } from "styled-components";
 
 const Typography = createGlobalStyle`
-  html {
+
+  body {
     font-family: sofia-pro, sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: var(--black);
+    font-display: swap;
   }
-
-  /* body {
-    line-height: 1.7;
-  } */
 
   p, li {
     letter-spacing: 0.5px;

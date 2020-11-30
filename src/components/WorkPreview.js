@@ -16,6 +16,9 @@ const WorkPreviewStyles = styled.div`
     font-size: 1rem;
     margin-bottom: 2em;
     max-width: 750px;
+    @media (min-width: 1200px) {
+      font-size: 0.9rem;
+    }
   }
 
   .work-link {
@@ -48,9 +51,9 @@ const WorkPreviewStyles = styled.div`
     color: var(--black);
     font-weight: bold;
     max-width: 750px;
-    /* @media (min-width: 625px) {
-      font-size: 1.15rem;
-    } */
+    @media (min-width: 1200px) {
+      font-size: 0.9rem;
+    }
   }
 
   .work-testimonial {

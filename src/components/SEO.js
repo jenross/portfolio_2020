@@ -30,6 +30,7 @@ const SEO = ({ title, description }) => {
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta name="description" content={seo.description} />
       <meta name="image" content='/jen_landscape_2000_compressed.jpg' />
+      <meta property="og:image:alt" content="Jennifer Ross 2020 profile standing in field" />
 
       {seo.url && <meta property="og:url" content={seo.url} />}
 
@@ -44,7 +45,7 @@ const SEO = ({ title, description }) => {
 
       <meta property="og:image" content='/jen_landscape_2000_compressed.jpg' />
 
-      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:card" content="summary" />
 
       {twitterUsername && (
         <meta name="twitter:creator" content={twitterUsername} />
@@ -56,7 +57,9 @@ const SEO = ({ title, description }) => {
         <meta name="twitter:description" content={seo.description} />
       )}
 
-      <meta name="twitter:image" content='/jen_landscape_2000_compressed.jpg' />
+      <meta name="twitter:image" content='/jen_og_square.jpg' />
+      
+      <meta name="twitter:image:alt" content="Jennifer Ross 2020 profile standing in field" />
 
     </Helmet>
   )

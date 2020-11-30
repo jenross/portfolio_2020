@@ -41,8 +41,7 @@ const RecentWork = () => {
     <RecentWorkStyles id="work">
       <h2 className="sub-header">Recent Work</h2>
       <p className="recent-work-description">
-        It's been an honor and privilege to design and build these websites for
-        local clients this year. Click on the images to view the live sites.{" "}
+        Take a look at the websites I've recently designed and built for small businesses and local political candidates. Click on the images to view the live sites.{" "}
       </p>
       {/* <Link to="/portfolio" className="see-all-link">
         See all work &rarr;
@@ -63,16 +62,16 @@ const RecentWork = () => {
           testimonial='"I would recommend Jen for all of your web hosting, design and social media needs. Jen listened to what I wanted and kept me in the loop through her entire creative process. She made great suggestions without being pushy and ultimately created exactly the website I wanted."'
           attribution="-Crissy Stile"
           link="https://crissyforflorida.com"
-          img="Crissy_Portfolio.png"
+          img="Crissy_Portfolio_Rect.png"
           alt="Crissy Stile's website landing page on a laptop"
         />
         <WorkPreview
           heading="Mollie Cunningham"
-          description="A custom Gatsby site for Lake County School Board District 4 candidate Mollie Cunningham. The volunteer and contact form submissions are handled by Netlify Forms and integrated with Zapier to go straight to the candidate's email. I also set up and integrated Anedot for campaign donations and helped run Mrs. Cunningham's social media marketing campaigns."
-          testimonial='"Jen did a wonderful job on my campaign website and social media campaigns. Without her digital marketing assistance, I do not think I would have been elected to the Lake County School Board."'
+          description="A custom Gatsby site for Lake County School Board District 4 candidate Mollie Cunningham. I integrated Anedot for campaign donations and also assisted Mrs. Cunningham with her social media marketing campaigns."
+          testimonial='"Jen did a wonderful job on my campaign website and social media campaigns. I do not think I would have been elected to the Lake County School Board without her digital marketing expertise."'
           attribution="-Mollie Cunningham"
           link="https://molliecunningham.com"
-          img="Mollie_Portfolio.png"
+          img="Mollie_Portfolio_Rect.png"
           alt="Mollie Cunningham's tablet and mobile landing page"
         />
 
@@ -83,7 +82,7 @@ const RecentWork = () => {
           testimonial='"Jennifer Ross surpassed our firm’s high expectations for our new website. She is thorough and creative. We highly recommend her."'
           attribution="-Derek Schroth"
           link="https://bowenschroth.com"
-          img="Schroth_Portfolio.png"
+          img="Schroth_Portfolio_Rect.png"
           alt="Bowen & Schroth's website desktop and tablet landing page"
         />
       </div>

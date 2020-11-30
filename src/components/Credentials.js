@@ -53,10 +53,9 @@ const Credentials = () => {
     <CredentialsStyles>
       <h2 className="sub-header">Credentials</h2>
       <p className="credentials-paragraph">
-        I graduated from the UCF Coding Boot Camp in 2019 and recently completed
-        the "Fundamentals of Digital Marketing" certification exam offered by
-        Google Digital Garage. I have also been preparing for the IAAP WAS (Web
-        Accessibility Specialist) exam and hope to earn this certification by
+        I graduated from the UCF Coding Boot Camp in 2019 and recently earned certification from Google Digital Garage after completing their
+        "Fundamentals of Digital Marketing" course. I have also been preparing for the IAAP WAS (Web
+        Accessibility Specialist) exam and hope to be certified by
         the end of the year.{" "}
       </p>
       <div className="credentials-img-container">
@@ -78,7 +77,7 @@ const Credentials = () => {
           className="credential-links"
         >
           <CredentialsImg
-            filename="digital_garage.png"
+            filename="Google-Digital-Garage.jpg"
             alt="Jennifer Ross' Google Digital Garage certification issued after completing the Fundamentals of Digital Marketing course"
           />
           <p className="credential-id">Credential ID: 8VY UTD 8F5</p>
