@@ -5,8 +5,6 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "netlify": "netlify dev",
-    "prebuild": "netlify-lambda install",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "start": "npm run develop",
