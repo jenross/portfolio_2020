@@ -6,6 +6,7 @@ import RecentWork from "../components/RecentWork";
 import Contact from "../components/Contact";
 import Instagram from "../components/Instagram";
 
+
 export default function HomePage() {
   return (
     <>

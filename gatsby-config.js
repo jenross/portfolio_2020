@@ -3,10 +3,10 @@ const path = require(`path`)
 module.exports = {
 
   siteMetadata: {
-    title: `Jennifer Ross' Portfolio`,
-    siteUrl: 'https://jenniferross.tech',
-    description: 'Jennifer Ross is a full stack developer living in Mount Dora, Florida.'
-
+    title: `Jennifer Ross | Full Stack Developer`,
+    url: 'https://jenniferross.tech',
+    description: 'I’m a full stack JavaScript developer and designer living in Sorrento, Florida. I write HTML, CSS and JavaScript, and design with Figma. Right now, I’m focusing on React.js, AWS Lambda (serverless functions), JAMstack architecture, web accessibility, GraphQL, Gatsby, and WordPress (including headless WordPress).',
+    twitterUsername: "@itsjenniferross",
   },
   plugins: [
     'gatsby-plugin-react-helmet',

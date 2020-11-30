@@ -33,7 +33,7 @@ const HeroStyles = styled.section`
     margin-bottom: 0;
   }
 
-  .hero-profile {
+  /* .hero-profile {
     margin-top: 0.75em;
     margin-bottom: 1.5em;
     border-radius: 4px;
@@ -42,10 +42,12 @@ const HeroStyles = styled.section`
     @media (min-width: 750px) {
       display: none;
     }
-  }
+  } */
 
   .hero-profile2 {
-    display: none;
+    border-radius: 4px;
+    box-shadow: 0 0 10px #ddd;
+    /* display: none; */
     @media (min-width: 750px) {
       display: block;
     }
@@ -91,11 +93,11 @@ const Hero = () => {
         </span>
       </h1>
       <div className="hero-flex-container">
-        <Img
+        {/* <Img
           className="hero-profile gatsby-image-wrapper"
           fluid={data.profile.childImageSharp.fluid}
           alt="Jennifer Ross profile"
-        />
+        /> */}
         <Img
           className="hero-profile2 gatsby-image-wrapper"
           fluid={data.profile2.childImageSharp.fluid}
@@ -150,7 +152,7 @@ const Hero = () => {
             and assist UCF Coding Boot Camp students this year.
           </p>
           <p className="hero-content">
-            I’m seeking a full-time or temporary contract role that will allow
+            I’m seeking a full-time role that will allow
             me to help a company achieve their goals. I'd love to{" "}
             <AnchorLink to="/#contact" title="chat more" stripHash /> about my
             experience in person or virtually.

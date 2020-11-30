@@ -2,7 +2,12 @@ import React from "react";
 import { Link, useStaticQuery, graphql } from "gatsby";
 import styled from "styled-components";
 import Logo from "../images/JR_Logo-02.png";
-import Img from "gatsby-image";
+// import Img from "gatsby-image";
+import email from "../../static/email.svg";
+import github from "../../static/github.svg";
+import linkedin from "../../static/linkedin.svg";
+import twitter from "../../static/twitter.svg";
+import instagram from "../../static/instagram.svg";
 
 const FooterStyles = styled.footer`
   margin-top: 4.5em;
@@ -30,48 +35,53 @@ const FooterStyles = styled.footer`
   .social-icons li:last-child {
     padding-right: 0;
   }
+
+  .social-icons img {
+    width: 36px;
+    height: 36px; 
+  }
 `;
 
 const Footer = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      email: file(relativePath: { eq: "email.png" }) {
-        childImageSharp {
-          fixed(width: 36, height: 36) {
-            ...GatsbyImageSharpFixed
-          }
-        }
-      }
-      github: file(relativePath: { eq: "github.png" }) {
-        childImageSharp {
-          fixed(width: 36, height: 36) {
-            ...GatsbyImageSharpFixed
-          }
-        }
-      }
-      twitter: file(relativePath: { eq: "twitter.png" }) {
-        childImageSharp {
-          fixed(width: 36, height: 36) {
-            ...GatsbyImageSharpFixed
-          }
-        }
-      }
-      instagram: file(relativePath: { eq: "instagram.png" }) {
-        childImageSharp {
-          fixed(width: 36, height: 36) {
-            ...GatsbyImageSharpFixed
-          }
-        }
-      }
-      linkedin: file(relativePath: { eq: "linkedin.png" }) {
-        childImageSharp {
-          fixed(width: 36, height: 36) {
-            ...GatsbyImageSharpFixed
-          }
-        }
-      }
-    }
-  `);
+  // const data = useStaticQuery(graphql`
+  //   query {
+  //     email: file(relativePath: { eq: "email.png" }) {
+  //       childImageSharp {
+  //         fixed(width: 36, height: 36) {
+  //           ...GatsbyImageSharpFixed
+  //         }
+  //       }
+  //     }
+  //     github: file(relativePath: { eq: "github.png" }) {
+  //       childImageSharp {
+  //         fixed(width: 36, height: 36) {
+  //           ...GatsbyImageSharpFixed
+  //         }
+  //       }
+  //     }
+  //     twitter: file(relativePath: { eq: "twitter.png" }) {
+  //       childImageSharp {
+  //         fixed(width: 36, height: 36) {
+  //           ...GatsbyImageSharpFixed
+  //         }
+  //       }
+  //     }
+  //     instagram: file(relativePath: { eq: "instagram.png" }) {
+  //       childImageSharp {
+  //         fixed(width: 36, height: 36) {
+  //           ...GatsbyImageSharpFixed
+  //         }
+  //       }
+  //     }
+  //     linkedin: file(relativePath: { eq: "linkedin.png" }) {
+  //       childImageSharp {
+  //         fixed(width: 36, height: 36) {
+  //           ...GatsbyImageSharpFixed
+  //         }
+  //       }
+  //     }
+  //   }
+  // `);
   return (
     <FooterStyles>
       <ul className="social-icons">
@@ -81,18 +91,18 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <Img
+            <img
               className="each-social gatsby-image-wrapper"
-              fixed={data.email.childImageSharp.fixed}
+              src={email}
               alt="Jennifer Ross' email hey@jenniferross.tech"
             />
           </a>
         </li>
         <li>
           <a href="https://github.com/jenross" target="_blank" rel="noreferrer">
-            <Img
+            <img
               className="each-social gatsby-image-wrapper"
-              fixed={data.github.childImageSharp.fixed}
+              src={github}
               alt="Jennifer Ross' Github profile"
             />
           </a>
@@ -103,9 +113,9 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <Img
+            <img
               className="each-social gatsby-image-wrapper"
-              fixed={data.linkedin.childImageSharp.fixed}
+              src={linkedin}
               alt="Jennifer Ross' LinkedIn profile"
             />
           </a>
@@ -116,9 +126,9 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <Img
+            <img
               className="each-social gatsby-image-wrapper"
-              fixed={data.twitter.childImageSharp.fixed}
+              src={twitter}
               alt="Jennifer Ross' Twitter profile"
             />
           </a>
@@ -129,9 +139,9 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <Img
+            <img
               className="each-social gatsby-image-wrapper"
-              fixed={data.instagram.childImageSharp.fixed}
+              src={instagram}
               alt="Jennifer Ross' Instagram profile"
             />
           </a>

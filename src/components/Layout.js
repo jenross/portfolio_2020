@@ -5,6 +5,7 @@ import Nav from "./Nav";
 import Footer from "./Footer";
 import GlobalStyles from "../styles/GlobalStyles";
 import Typography from "../styles/Typography";
+import SEO from "../components/SEO";
 
 const LayoutStyles = styled.div`
   padding: 1.5em;
@@ -27,6 +28,7 @@ const LayoutStyles = styled.div`
 export default function Layout({ children }) {
   return (
     <>
+      <SEO />
       <GlobalStyles />
       <Typography />
       <LayoutStyles>
