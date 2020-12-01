@@ -45,8 +45,6 @@ const HeroStyles = styled.section`
 
   .hero-profile2 {
     display: none;
-    /* border-radius: 4px;
-    box-shadow: 0 0 10px #ddd; */
     @media (min-width: 750px) {
       display: block;
       border-radius: 4px;
