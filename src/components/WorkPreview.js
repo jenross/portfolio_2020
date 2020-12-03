@@ -77,11 +77,6 @@ const WorkPreview = ({
   testimonial,
   attribution,
 }) => {
-  // let workItem = useRef(null);
-
-  // useEffect(() => {
-  //   console.log(workItem);
-  // }, []);
 
   return (
     <WorkPreviewStyles className="work-section">

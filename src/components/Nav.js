@@ -1,10 +1,8 @@
 import React from "react";
 import { Link, useStaticQuery, graphql } from "gatsby";
 import styled from "styled-components";
-import Logo from "../images/JR_Logo-02.png";
 import Img from "gatsby-image";
 import { AnchorLink } from "gatsby-plugin-anchor-links";
-import { motion } from "framer-motion"
 
 const HeaderStyles = styled.header`
   margin-bottom: 1.5em;
@@ -59,37 +57,30 @@ const Nav = () => {
   return (
     <HeaderStyles>
       <NavStyles>
-   
-      <motion.div
-        animate={{ scale: 2 }}
-        transition={{ duration: 0.5 }}
-      >
-             <Img
-              className="hero-logo gatsby-image-wrapper"
-              fixed={data.logo.childImageSharp.fixed}
-              alt="Jennifer Ross logo"
-          />  
-        </motion.div>
-  
-            <ul className="nav-links">
-              <li className="each-nav-link">
-                <AnchorLink
-                  to="/#work"
-                  title="Work"
-                  stripHash
-                  className="nav-link"
-                />
-              </li>
-              <li className="each-nav-link">
-                <AnchorLink
-                  to="/#contact"
-                  title="Contact"
-                  stripHash
-                  className="nav-link"
-                />
-              </li>
-            </ul>
-   
+        <Img
+          className="hero-logo gatsby-image-wrapper"
+          fixed={data.logo.childImageSharp.fixed}
+          alt="Jennifer Ross logo"
+        />
+
+        <ul className="nav-links">
+          <li className="each-nav-link">
+            <AnchorLink
+              to="/#work"
+              title="Work"
+              stripHash
+              className="nav-link"
+            />
+          </li>
+          <li className="each-nav-link">
+            <AnchorLink
+              to="/#contact"
+              title="Contact"
+              stripHash
+              className="nav-link"
+            />
+          </li>
+        </ul>
       </NavStyles>
     </HeaderStyles>
   );
