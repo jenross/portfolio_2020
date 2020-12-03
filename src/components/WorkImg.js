@@ -2,7 +2,7 @@ import React, { useRef, useEffect } from "react";
 import { useStaticQuery, graphql } from "gatsby";
 import Img from "gatsby-image";
 // import { gsap, TweenMax, Power3 } from "gsap";
-import { TweenMax, Power3, Linear } from "gsap/all";
+// import { TweenMax, Power3, Linear } from "gsap/all";
 
 // function scaleUp() {
 //   TweenMax.to(".work-img", 1, {

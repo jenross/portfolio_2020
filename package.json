@@ -24,6 +24,7 @@
   "homepage": "https://github.com/jenross/portfolio_2020#readme",
   "dependencies": {
     "babel-plugin-styled-components": "^1.12.0",
+    "framer-motion": "^2.9.5",
     "gatsby": "^2.27.1",
     "gatsby-image": "^2.6.0",
     "gatsby-plugin-anchor-links": "^1.2.0",
