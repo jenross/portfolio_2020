@@ -9,7 +9,6 @@ const CredentialsStyles = styled.section`
     margin-top: 1.9em;
     margin-bottom: 0.5em;
     font-size: 2rem;
-
   }
 
   .credentials-paragraph {
@@ -29,6 +28,14 @@ const CredentialsStyles = styled.section`
 
   .credential-links:nth-child(2) {
     text-decoration: none;
+  }
+
+  .credentials-img {
+    transition: transform 0.3s;
+    &:hover {
+      transform: translateY(-1rem) scale(1.03);
+  
+    }
   }
 
   .credential-id {
@@ -53,10 +60,11 @@ const Credentials = () => {
     <CredentialsStyles>
       <h2 className="sub-header">Credentials</h2>
       <p className="credentials-paragraph">
-        I graduated from the UCF Coding Boot Camp in 2019 and recently earned certification from Google Digital Garage after completing their
-        "Fundamentals of Digital Marketing" course. I have also been preparing for the IAAP WAS (Web
-        Accessibility Specialist) exam and hope to be certified by
-        the end of the year.{" "}
+        I graduated from the UCF Coding Boot Camp in 2019 and recently earned
+        certification from Google Digital Garage after completing their
+        "Fundamentals of Digital Marketing" course. I have also been preparing
+        for the IAAP WAS (Web Accessibility Specialist) exam and hope to be
+        certified by the end of the year.{" "}
       </p>
       <div className="credentials-img-container">
         <a

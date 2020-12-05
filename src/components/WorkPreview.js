@@ -3,7 +3,6 @@ import { Link, useStaticQuery, graphql } from "gatsby";
 import styled from "styled-components";
 import WorkImg from "./WorkImg";
 
-
 const WorkPreviewStyles = styled.div`
   .work-header {
     line-height: 1.3em;
@@ -40,8 +39,9 @@ const WorkPreviewStyles = styled.div`
     box-shadow: 0 0 10px #ddd;
     margin-bottom: 1.7em;
     margin-top: 3.5em;
+    transition: transform 0.3s;
     &:hover {
-      /* transform: translateY(-1px); */
+      transform: translateY(-1rem) scale(1.03);
       box-shadow: 0px 2px 4px rgba(79, 79, 79, 0.25);
     }
   }
@@ -77,11 +77,9 @@ const WorkPreview = ({
   testimonial,
   attribution,
 }) => {
-
   return (
     <WorkPreviewStyles className="work-section">
       <a
-  
         href={`${link}`}
         className="work-link"
         target="_blank"

@@ -41,7 +41,9 @@ const RecentWork = () => {
     <RecentWorkStyles id="work">
       <h2 className="sub-header">Recent Work</h2>
       <p className="recent-work-description">
-        Take a look at the websites I've recently designed and built for small businesses and local political candidates. Click on the images to view the live sites.{" "}
+        Take a look at the websites I've recently designed and built for small
+        businesses and local political candidates. Click on the images to view
+        the live sites.{" "}
       </p>
       {/* <Link to="/portfolio" className="see-all-link">
         See all work &rarr;
@@ -58,7 +60,7 @@ const RecentWork = () => {
         />
         <WorkPreview
           heading="Crissy Stile"
-          description="Custom website redesign for Crissy Stile, a 2020 candidate for Florida House District 31. The site currently shows a temporary placeholder landing page and will be updated again next year."
+          description="Custom website redesign for Crissy Stile, a 2020 candidate for Florida House District 31. The site currently displays a placeholder landing page and will be updated again next year."
           testimonial='"I would recommend Jen for all of your web hosting, design and social media needs. Jen listened to what I wanted and kept me in the loop through her entire creative process. She made great suggestions without being pushy and ultimately created exactly the website I wanted."'
           attribution="-Crissy Stile"
           link="https://crissyforflorida.com"
@@ -78,7 +80,7 @@ const RecentWork = () => {
         <WorkPreview
           id="last-attribution"
           heading="Bowen & Schroth, P.A."
-          description="A custom WordPress theme for prominent Eustis law firm Bowen & Schroth, P.A. I started with the barebones Underscores starter theme and created a more modern and accessibility-focused site tailored to the firm's needs."
+          description="A custom WordPress theme for prominent Eustis law firm Bowen & Schroth, P.A. I started with the barebones Underscores starter theme and created a more modern and accessibility-focused site for their 2020 redesign."
           testimonial='"Jennifer Ross surpassed our firm’s high expectations for our new website. She is thorough and creative. We highly recommend her."'
           attribution="-Derek Schroth"
           link="https://bowenschroth.com"
