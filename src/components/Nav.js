@@ -35,11 +35,30 @@ const NavStyles = styled.nav`
     color: var(--black);
     text-decoration: none;
   }
-
-  .nav-link:hover {
-    color: var(--purple);
-    border-bottom: 1px solid var(--purple);
+  a {
+    background: linear-gradient(
+      to bottom,
+      var(--purple) 0%,
+      var(--purple) 100%
+    );
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 3px 3px;
+    transition: background-size 0.3s;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
   }
+
+  a:hover {
+    background-size: 3px 40px;
+    color: var(--white);
+  }
+
+  /* .nav-link:hover {
+    color: var(--purple);
+    transition: ease 0.4s;
+    border-bottom: 1px solid var(--purple);
+  } */
 `;
 
 const Nav = () => {
@@ -56,7 +75,7 @@ const Nav = () => {
   `);
   return (
     <HeaderStyles>
-      <NavStyles>
+      <NavStyles className="fill">
         <Img
           className="hero-logo gatsby-image-wrapper"
           fixed={data.logo.childImageSharp.fixed}
