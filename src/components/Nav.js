@@ -43,14 +43,15 @@ const NavStyles = styled.nav`
     );
     background-position: 0 100%;
     background-repeat: repeat-x;
-    background-size: 3px 3px;
+    background-size: 2px 2px;
     transition: background-size 0.3s;
-    padding-left: 0.3em;
-    padding-right: 0.3em;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+    padding-bottom: 0.1em;
   }
 
   a:hover {
-    background-size: 3px 40px;
+    background-size: 2px 40px;
     color: var(--white);
   }
 
