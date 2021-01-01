@@ -6,22 +6,19 @@ import RecentWork from "../components/RecentWork";
 import Contact from "../components/Contact";
 import Instagram from "../components/Instagram";
 
-
 export default function HomePage() {
   return (
     <>
       <Layout>
-        <main>
-          <Hero />
-          <hr className="page-breakup" />
-          <Credentials />
-          <hr className="page-breakup" />
-          <RecentWork />
-          <hr className="page-breakup" />
-          <Contact />
-          <hr className="page-breakup" />
-          <Instagram />
-        </main>
+        <Hero />
+        <hr className="page-breakup" />
+        <Credentials />
+        <hr className="page-breakup" />
+        <RecentWork />
+        <hr className="page-breakup" />
+        <Contact />
+        <hr className="page-breakup" />
+        <Instagram />
       </Layout>
     </>
   );

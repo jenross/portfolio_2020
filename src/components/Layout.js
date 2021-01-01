@@ -33,7 +33,7 @@ export default function Layout({ children }) {
       <Typography />
       <LayoutStyles>
         <Nav />
-        {children}
+        <main>{children}</main>
         <Footer />
       </LayoutStyles>
     </>

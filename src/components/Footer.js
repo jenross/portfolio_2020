@@ -43,8 +43,8 @@ const FooterStyles = styled.footer`
 `;
 
 const Footer = () => {
-  const today = new Date();
-  const year = today.getFullYear();
+  let today = new Date();
+  let year = today.getFullYear();
   // const data = useStaticQuery(graphql`
   //   query {
   //     email: file(relativePath: { eq: "email.png" }) {
