@@ -43,6 +43,8 @@ const FooterStyles = styled.footer`
 `;
 
 const Footer = () => {
+  const today = new Date();
+  const year = today.getFullYear();
   // const data = useStaticQuery(graphql`
   //   query {
   //     email: file(relativePath: { eq: "email.png" }) {
@@ -158,7 +160,7 @@ const Footer = () => {
         </li>
       </ul>
 
-      <p className="footer-copyright center">&copy; 2020 Jennifer Ross</p>
+      <p className="footer-copyright center">&copy; {year} Jennifer Ross</p>
     </FooterStyles>
   );
 };
