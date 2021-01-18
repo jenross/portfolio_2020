@@ -139,7 +139,7 @@ const Hero = () => {
           </p>
           <p className="hero-content">
             In addition to designing and building websites for local businesses
-            and political candidates, I have also enjoyed using my education
+            and political candidates, I've enjoyed using my education
             background to{" "}
             <a
               href="https://jenrosstutoring.com/"
@@ -148,7 +148,7 @@ const Hero = () => {
             >
               teach kids to code
             </a>{" "}
-            and assist UCF Coding Boot Camp students this year.
+            and work with UCF Coding Boot Camp students as a part-time teaching assistant.
           </p>
           <p className="hero-content">
             I’m seeking a full-time role that will allow me to help a company

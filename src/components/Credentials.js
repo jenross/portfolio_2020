@@ -64,7 +64,7 @@ const Credentials = () => {
         certification from Google Digital Garage after completing their
         "Fundamentals of Digital Marketing" course. I have also been preparing
         for the IAAP WAS (Web Accessibility Specialist) exam and hope to be
-        certified by the end of the year.{" "}
+        certified very soon.{" "}
       </p>
       <div className="credentials-img-container">
         <a
