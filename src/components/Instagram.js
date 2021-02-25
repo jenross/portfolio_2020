@@ -45,13 +45,15 @@ const InstagramStyles = styled.section`
     font-size: 0.9rem;
     text-transform: uppercase;
     text-decoration: none;
-    color: var(--black);
-    font-weight: semi-bold;
+    color: var(--paragraph);
+    font-weight: bold;
+    border-bottom: 2px solid var(--purple);
+    transition: all 0.5s ease;
   }
 
   .see-more-link:hover {
     color: var(--purple);
-    border-bottom: 1px solid var(--purple);
+    border-bottom: none;
   }
 `;
 

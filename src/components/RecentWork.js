@@ -62,7 +62,7 @@ const RecentWork = () => {
 
         <WorkPreview
           heading="Crissy Stile"
-          description="Custom website redesign for Crissy Stile, a 2020 candidate for Florida House District 31. The site currently displays a placeholder landing page and will be updated again next year."
+          description="Custom website redesign for Crissy Stile, a 2020 candidate for Florida House District 31. The site currently displays a placeholder landing page and will be updated by fall of 2021."
           testimonial='"I would recommend Jen for all of your web hosting, design and social media needs. Jen listened to what I wanted and kept me in the loop through her entire creative process. She made great suggestions without being pushy and ultimately created exactly the website I wanted."'
           attribution="-Crissy Stile"
           link="https://crissyforflorida.com"

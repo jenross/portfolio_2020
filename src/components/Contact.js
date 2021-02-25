@@ -18,10 +18,12 @@ const ContactStyles = styled.section`
 
   .mail-link {
     font-size: 1.075rem;
-    color: var(--black);
+    color: var(--paragraph);
+    font-weight: bold;
     text-decoration: none;
     border-bottom: 2px solid var(--purple);
     padding-bottom: 0.2em;
+    transition: all 0.5s ease;
   }
 
   .mail-link:hover {

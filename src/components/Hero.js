@@ -8,8 +8,9 @@ const HeroStyles = styled.section`
   a {
     color: var(--paragraph);
     text-decoration: none;
-    border-bottom: 1px solid var(--paragraph);
+    border-bottom: 2px solid var(--purple);
     font-weight: bold;
+    transition: all 0.5s ease;
   }
 
   a:hover {
@@ -105,17 +106,7 @@ const Hero = () => {
         <div className="hero-content-container">
           <p className="hero-content">
             I’m a full stack JavaScript developer and designer living in
-            Sorrento, a small town in Central Florida. It’s close to Mount Dora,
-            a{" "}
-            <a
-              href="https://www.atlantamagazine.com/southbound-articles/small-town-mount-dora-florida/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              quaint “Land of Lakes and Hills”
-            </a>
-            , and only about 30 miles north of Orlando.
-          </p>
+            Sorrento, a small town in Central Florida 30 miles north of Orlando.</p>
           <p className="hero-content">
             I write HTML, CSS and JavaScript, and design with Figma. Right now,
             I’m focusing on React.js, AWS Lambda (serverless functions),{" "}
@@ -139,8 +130,8 @@ const Hero = () => {
           </p>
           <p className="hero-content">
             In addition to designing and building websites for local businesses
-            and political candidates, I've enjoyed using my education
-            background to{" "}
+            and political candidates, I've enjoyed using my education background
+            to{" "}
             <a
               href="https://jenrosstutoring.com/"
               target="_blank"
@@ -148,7 +139,8 @@ const Hero = () => {
             >
               teach kids to code
             </a>{" "}
-            and work with UCF Coding Boot Camp students as a part-time teaching assistant.
+            and work with UCF Coding Boot Camp students as a part-time teaching
+            assistant.
           </p>
           <p className="hero-content">
             I’m seeking a full-time role that will allow me to help a company

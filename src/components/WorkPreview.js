@@ -41,7 +41,7 @@ const WorkPreviewStyles = styled.div`
     margin-top: 3.5em;
     transition: transform 0.3s;
     &:hover {
-      transform: translateY(-1rem) scale(1.03);
+      transform: translateY(-0.5rem) scale(1);
       box-shadow: 0px 2px 4px rgba(79, 79, 79, 0.25);
     }
   }

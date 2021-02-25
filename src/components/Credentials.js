@@ -33,7 +33,7 @@ const CredentialsStyles = styled.section`
   .credentials-img {
     transition: transform 0.3s;
     &:hover {
-      transform: translateY(-1rem) scale(1.03);
+      transform: translateY(-0.5rem) scale(1);
   
     }
   }
@@ -63,8 +63,8 @@ const Credentials = () => {
         I graduated from the UCF Coding Boot Camp in 2019 and recently earned
         certification from Google Digital Garage after completing their
         "Fundamentals of Digital Marketing" course. I have also been preparing
-        for the IAAP WAS (Web Accessibility Specialist) exam and hope to be
-        certified very soon.{" "}
+        for the IAAP WAS (Web Accessibility Specialist) exam and will be
+        certified soon.{" "}
       </p>
       <div className="credentials-img-container">
         <a
