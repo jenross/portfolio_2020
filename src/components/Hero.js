@@ -126,8 +126,11 @@ const Hero = () => {
             assistant.
           </p>
           <p className="hero-content">
-           If you have a project you'd like to discuss, {" "}
-            <AnchorLink to="/#contact" title="don't hesitate to reach out" stripHash />. 
+            If you have a project you'd like to discuss,{" "}
+            <a href="mailto:hey@jenniferross.tech" className="mail-link">
+              don't hesitate to reach out
+            </a>
+            .
           </p>
         </div>
       </div>

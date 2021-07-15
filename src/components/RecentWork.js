@@ -50,16 +50,16 @@ const RecentWork = () => {
       <div className="recent-work-container">
         <WorkPreview
           id="last-attribution"
-          heading="Bowen & Schroth, P.A."
-          description="A custom WordPress theme for prominent Eustis law firm Bowen & Schroth, P.A. I started with the barebones Underscores starter theme and created a more modern and accessibility-focused site for their 2020 redesign."
-          testimonial='"Jennifer Ross surpassed our firm’s high expectations for our new website. She is thorough and creative. We highly recommend her."'
-          attribution="-Derek Schroth"
-          link="https://bowenschroth.com"
-          img="Schroth_Portfolio_Rect.png"
-          alt="Bowen & Schroth's website desktop and tablet landing page"
+          heading="Barrel of Books and Games"
+          description="E-commerce website migration to Shopify, including end-to-end store setup and theme customization."
+          testimonial='"Transitioning my website to Shopify with Jen couldn’t have been more flawless. She was available every step of the way and even redesigned my logo and created all new marketing materials. There are so many options available within Shopify to make the customer’s shopping experience easy and convenient and Jen is an expert with all of them. She made great suggestions while still doing exactly what I wanted."'
+          attribution="-Crissy Stile"
+          link="https://barrelofbooksandgames.com"
+          img="bbg_portfolio_mockup.png"
+          alt="Barrel of Books and Games website"
         />
 
-        <WorkPreview
+        {/* <WorkPreview
           heading="Crissy Stile"
           description="Custom website redesign for Crissy Stile, a 2020 candidate for Florida House District 31. The site currently displays a placeholder landing page and will be updated by fall of 2021."
           testimonial='"I would recommend Jen for all of your web hosting, design and social media needs. Jen listened to what I wanted and kept me in the loop through her entire creative process. She made great suggestions without being pushy and ultimately created exactly the website I wanted."'
@@ -67,7 +67,7 @@ const RecentWork = () => {
           link="https://crissyforflorida.com"
           img="Crissy_Portfolio_Rect.png"
           alt="Crissy Stile's website landing page on a laptop"
-        />
+        /> */}
         <WorkPreview
           heading="Mollie Cunningham"
           description="A custom Gatsby site for Lake County School Board District 4 candidate Mollie Cunningham. I integrated Anedot for campaign donations and also assisted Mrs. Cunningham with her social media marketing campaigns."
@@ -86,6 +86,16 @@ const RecentWork = () => {
           link="https://trainwithnikki.net"
           img="EW_Portfolio.png"
           alt="Envision Wellness website desktop, tablet, and mobile landing page"
+        />
+        <WorkPreview
+          id="last-attribution"
+          heading="Bowen & Schroth, P.A."
+          description="A custom WordPress theme for prominent Eustis law firm Bowen & Schroth, P.A. I started with the barebones Underscores starter theme and created a more modern and accessibility-focused site for their 2020 redesign."
+          testimonial='"Jennifer Ross surpassed our firm’s high expectations for our new website. She is thorough and creative. We highly recommend her."'
+          attribution="-Derek Schroth"
+          link="https://bowenschroth.com"
+          img="Schroth_Portfolio_Rect.png"
+          alt="Bowen & Schroth's website desktop and tablet landing page"
         />
       </div>
     </RecentWorkStyles>

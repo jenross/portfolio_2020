@@ -38,9 +38,8 @@ const Contact = () => {
     <ContactStyles id="contact">
       <h2 className="sub-header">Contact</h2>
       <p className="contact-paragraph">
-        If you think I would be a good fit for a role at your company or have a
-        project idea you'd like to discuss, please send me an email and I will
-        follow up within 24 hours.{" "}
+        If you have a project idea you'd like to discuss, please send me an
+        email and I will follow up within 24 hours.{" "}
       </p>
       <a href="mailto:hey@jenniferross.tech" className="mail-link">
         hey@jenniferross.tech
