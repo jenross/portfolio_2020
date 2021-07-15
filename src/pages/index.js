@@ -17,8 +17,8 @@ export default function HomePage() {
         <RecentWork />
         <hr className="page-breakup" />
         <Contact />
-        <hr className="page-breakup" />
-        <Instagram />
+        {/* <hr className="page-breakup" />
+        <Instagram /> */}
       </Layout>
     </>
   );
