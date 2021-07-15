@@ -34,7 +34,6 @@ const CredentialsStyles = styled.section`
     transition: transform 0.3s;
     &:hover {
       transform: translateY(-0.5rem) scale(1);
-  
     }
   }
 
@@ -62,9 +61,7 @@ const Credentials = () => {
       <p className="credentials-paragraph">
         I graduated from the UCF Coding Boot Camp in 2019 and recently earned
         certification from Google Digital Garage after completing their
-        "Fundamentals of Digital Marketing" course. I have also been preparing
-        for the IAAP WAS (Web Accessibility Specialist) exam and will be
-        certified soon.{" "}
+        "Fundamentals of Digital Marketing" course.{" "}
       </p>
       <div className="credentials-img-container">
         <a

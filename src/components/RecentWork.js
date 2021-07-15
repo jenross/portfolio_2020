@@ -42,8 +42,7 @@ const RecentWork = () => {
       <h2 className="sub-header">Recent Work</h2>
       <p className="recent-work-description">
         Take a look at the websites I've recently designed and built for small
-        businesses and local political candidates. Click on the images to view
-        the live sites.{" "}
+        businesses and local political candidates.{" "}
       </p>
       {/* <Link to="/portfolio" className="see-all-link">
         See all work &rarr;

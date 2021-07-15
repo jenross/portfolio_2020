@@ -105,29 +105,12 @@ const Hero = () => {
         />
         <div className="hero-content-container">
           <p className="hero-content">
-            I’m a full stack JavaScript developer and designer living in
-            Sorrento, a small town in Central Florida 30 miles north of Orlando.</p>
-          <p className="hero-content">
-            I write HTML, CSS and JavaScript, and design with Figma. Right now,
-            I’m focusing on React.js, AWS Lambda (serverless functions),{" "}
-            <a
-              href="https://jamstack.wtf/#meaning"
-              target="_blank"
-              rel="noreferrer"
-            >
-              JAMstack architecture
-            </a>
-            , web accessibility, GraphQL, Gatsby, and WordPress (including
-            headless WordPress). I have also{" "}
-            <a
-              href="https://github.com/jenross/taste-buds-roulette"
-              target="_blank"
-              rel="noreferrer"
-            >
-              built projects
-            </a>{" "}
-            with Node, Express, SQL/MySQL, and NoSQL databases like MongoDB.
+            I’m a full stack web developer and designer currently living in
+            Mount Dora, FL.
           </p>
+          {/* <p className="hero-content">
+            I write HTML, CSS and JavaScript, and design with Figma.
+          </p> */}
           <p className="hero-content">
             In addition to designing and building websites for local businesses
             and political candidates, I've enjoyed using my education background
@@ -143,10 +126,8 @@ const Hero = () => {
             assistant.
           </p>
           <p className="hero-content">
-            I’m seeking a full-time role that will allow me to help a company
-            achieve their goals. I'd love to{" "}
-            <AnchorLink to="/#contact" title="chat more" stripHash /> about my
-            experience in person or virtually.
+           If you have a project you'd like to discuss, {" "}
+            <AnchorLink to="/#contact" title="don't hesitate to reach out" stripHash />. 
           </p>
         </div>
       </div>
