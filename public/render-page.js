@@ -1,12 +1,12 @@
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("/Users/jenniferross/Dropbox/portfolio_2020/node_modules/lodash/merge.js"), require("react"), require("react-dom/server"), require("react-helmet"));
+		module.exports = factory(require("/workspace/portfolio_2020/node_modules/lodash/merge.js"), require("react"), require("react-dom/server"), require("react-helmet"));
 	else if(typeof define === 'function' && define.amd)
-		define("lib", ["/Users/jenniferross/Dropbox/portfolio_2020/node_modules/lodash/merge.js", "react", "react-dom/server", "react-helmet"], factory);
+		define("lib", ["/workspace/portfolio_2020/node_modules/lodash/merge.js", "react", "react-dom/server", "react-helmet"], factory);
 	else if(typeof exports === 'object')
-		exports["lib"] = factory(require("/Users/jenniferross/Dropbox/portfolio_2020/node_modules/lodash/merge.js"), require("react"), require("react-dom/server"), require("react-helmet"));
+		exports["lib"] = factory(require("/workspace/portfolio_2020/node_modules/lodash/merge.js"), require("react"), require("react-dom/server"), require("react-helmet"));
 	else
-		root["lib"] = factory(root["/Users/jenniferross/Dropbox/portfolio_2020/node_modules/lodash/merge.js"], root["react"], root["react-dom/server"], root["react-helmet"]);
+		root["lib"] = factory(root["/workspace/portfolio_2020/node_modules/lodash/merge.js"], root["react"], root["react-dom/server"], root["react-helmet"]);
 })(this, function(__WEBPACK_EXTERNAL_MODULE_lodash_merge__, __WEBPACK_EXTERNAL_MODULE_react__, __WEBPACK_EXTERNAL_MODULE_react_dom_server__, __WEBPACK_EXTERNAL_MODULE_react_helmet__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
@@ -2708,9 +2708,9 @@ function v(){return(v=Object.assign||function(e){for(var t=1;t<arguments.length;
 /***/ }),
 
 /***/ "lodash/merge":
-/*!******************************************************************************************!*\
-  !*** external "/Users/jenniferross/Dropbox/portfolio_2020/node_modules/lodash/merge.js" ***!
-  \******************************************************************************************/
+/*!*************************************************************************!*\
+  !*** external "/workspace/portfolio_2020/node_modules/lodash/merge.js" ***!
+  \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 

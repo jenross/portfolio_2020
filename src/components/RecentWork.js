@@ -48,6 +48,15 @@ const RecentWork = () => {
         See all work &rarr;
       </Link> */}
       <div className="recent-work-container">
+      <WorkPreview
+          heading="Under the Cherry Blossoms"
+          description="E-commerce store setup on Shopify, theme customization, and email marketing."
+          testimonial='"Jennifer is exactly who I needed to get the job done! Having worked on my own websites in years past I knew I could create my new site, but man I did not want to. Jennifer allowed me to jointly work on my new Shopify site with her. She is so organized, professional, knowledgeable and has excellent communication while also being down to earth, fun to work with and so timely with projects. She even speaks my language and can be majorly techy without losing me in conversation. Not only did we organize 1000s of items into easy to follow categories bringing my small gift shop to a whole new level she is now helping me with my email marketing, teaching me about apps and different software options to help streamline my business and all at a very reasonable price. I highly recommend Jennifer and have already referred multiple people to her for their website needs.  A++++"'
+          attribution="-Lynn Wisniewski"
+          link="https://underthecherryblossoms.com"
+          img="ucb_mockup_cropped.png"
+          alt="Under the Cherry Blossoms website"
+        />
         <WorkPreview
           id="last-attribution"
           heading="Barrel of Books and Games"
@@ -57,6 +66,17 @@ const RecentWork = () => {
           link="https://barrelofbooksandgames.com"
           img="bbg_portfolio_mockup.png"
           alt="Barrel of Books and Games website"
+        />
+
+<WorkPreview
+ 
+          heading="Crissy Stile for Mount Dora Mayor"
+          description="Squarespace website design & build, email marketing with Mailchimp, and PayPal donation integration."
+          testimonial='"I would recommend Jen for all of your web hosting, design, and social media needs. Jen listened to what I wanted and kept me in the loop through her entire creative process. She made great suggestions without being pushy and ultimately created exactly the website I wanted."'
+          attribution="-Crissy Stile"
+          link="https://crissyformountdora.com"
+          img="stile_mayor_mockup_cropped.png"
+          alt="Crissy Stile for Mount Dora Mayor website"
         />
 
         {/* <WorkPreview
