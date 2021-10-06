@@ -10,7 +10,7 @@ const HeroStyles = styled.section`
     text-decoration: none;
     border-bottom: 2px solid var(--purple);
     font-weight: bold;
-    transition: all 0.5s ease;
+    transition: all 0.2s ease;
   }
 
   a:hover {
