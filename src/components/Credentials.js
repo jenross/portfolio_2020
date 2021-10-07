@@ -59,9 +59,8 @@ const Credentials = () => {
     <CredentialsStyles>
       <h2 className="sub-header">Credentials</h2>
       <p className="credentials-paragraph">
-        I graduated from the UCF Coding Boot Camp in 2019 and recently earned
-        certification from Google Digital Garage after completing their
-        "Fundamentals of Digital Marketing" course.{" "}
+        I graduated from the UCF Coding Boot Camp in 2019 and subsequently earned digital marketing
+        certification from Google Digital Garage. {" "} I have bachelor's degrees in journalism and political science (with an emphasis on international relations).
       </p>
       <div className="credentials-img-container">
         <a

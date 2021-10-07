@@ -38,7 +38,7 @@ const Contact = () => {
     <ContactStyles id="contact">
       <h2 className="sub-header">Contact</h2>
       <p className="contact-paragraph">
-        If you have a project idea you'd like to discuss, please send me an
+        If you have a project idea or job opportunity you'd like to discuss, please send me an
         email and I will follow up within 24 hours.{" "}
       </p>
       <a href="mailto:hey@jenniferross.tech" className="mail-link">
