@@ -50,7 +50,7 @@ const RecentWork = () => {
       <div className="recent-work-container">
       <WorkPreview
           heading="Under the Cherry Blossoms"
-          description="E-commerce store setup on Shopify, theme customization, and email marketing."
+          description="E-commerce store setup on Shopify, theme customization, copywriting, and email marketing."
           testimonial='"Jennifer is exactly who I needed to get the job done! Having worked on my own websites in years past I knew I could create my new site, but man I did not want to. Jennifer allowed me to jointly work on my new Shopify site with her. She is so organized, professional, knowledgeable and has excellent communication while also being down to earth, fun to work with and so timely with projects. She even speaks my language and can be majorly techy without losing me in conversation. Not only did we organize 1000s of items into easy to follow categories bringing my small gift shop to a whole new level she is now helping me with my email marketing, teaching me about apps and different software options to help streamline my business and all at a very reasonable price. I highly recommend Jennifer and have already referred multiple people to her for their website needs.  A++++"'
           attribution="-Lynn Wisniewski"
           link="https://underthecherryblossoms.com"
@@ -60,7 +60,7 @@ const RecentWork = () => {
         <WorkPreview
           id="last-attribution"
           heading="Barrel of Books and Games"
-          description="E-commerce website migration to Shopify, including end-to-end store setup and theme customization."
+          description="E-commerce website migration to Shopify, including end-to-end store setup, copywriting, and theme customization."
           testimonial='"Transitioning my website to Shopify with Jen couldn’t have been more flawless. She was available every step of the way and even redesigned my logo and created all new marketing materials. There are so many options available within Shopify to make the customer’s shopping experience easy and convenient and Jen is an expert with all of them. She made great suggestions while still doing exactly what I wanted."'
           attribution="-Crissy Stile"
           link="https://barrelofbooksandgames.com"
@@ -71,7 +71,7 @@ const RecentWork = () => {
 <WorkPreview
  
           heading="Crissy Stile for Mount Dora Mayor"
-          description="Squarespace website design & build, email marketing with Mailchimp, and PayPal donation integration."
+          description="Squarespace website design & build, email marketing with Mailchimp, copywriting, and PayPal donation integration."
           testimonial='"I would recommend Jen for all of your web hosting, design, and social media needs. Jen listened to what I wanted and kept me in the loop through her entire creative process. She made great suggestions without being pushy and ultimately created exactly the website I wanted."'
           attribution="-Crissy Stile"
           link="https://crissyformountdora.com"
@@ -90,7 +90,7 @@ const RecentWork = () => {
         /> */}
         <WorkPreview
           heading="Mollie Cunningham"
-          description="A custom Gatsby site for Lake County School Board District 4 candidate Mollie Cunningham. I integrated Anedot for campaign donations and also assisted Mrs. Cunningham with her social media marketing campaigns."
+          description="A custom Gatsby site for Lake County School Board District 4 candidate Mollie Cunningham. I integrated Anedot for campaign donations, handled copywriting and web design/development, and also assisted Mrs. Cunningham with her social media marketing campaigns."
           testimonial='"It is with great confidence and pleasure that I write this recommendation for Mercury Jane Media. I met Jennifer several years ago when she began her career as an educator. I watched her do an amazing job educating young people and recently I needed media help with my political campaign and she literally put my campaign on the right track.  She and Patrick are an awesome team! Between the two of them, they took care of everything. This included my website, social media, logo, business cards and it was done quickly, efficiently and professionally. I will continue to use Mercury Jane Media in the future for all my media needs. I highly recommend them without reservation."'
           attribution="-Mollie Cunningham"
           link="https://molliecunningham.com"
