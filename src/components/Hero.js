@@ -133,7 +133,7 @@ const Hero = () => {
               rel="noreferrer"
             >Mercury Jane Media</a> in 2020 along with my husband, Patch, a graphic designer. We offer brand strategy and identity design, web design and development, and email marketing services to clients representing a variety of industries. I've loved combining all of my professional experience and skills to help these organizations thrive.</p> 
 
-        <p className="hero-content">We've helped retailers triple their online sales, developed marketing strategies and collateral for political campaigns that have won elections, and generated thousands of dollars in additional revenue for small businesses through effective, consistent email marketing campaigns.</p> 
+        <p className="hero-content">In less than two years, we've helped retailers triple their online sales, developed marketing strategies and collateral for political campaigns that have won elections, and generated thousands of dollars in additional revenue for small businesses through effective, consistent email marketing campaigns.</p> 
 
         <p className="hero-content">It all starts with putting a pen to paper, mind open, ready for an adventure.</p>
           {/* <p className="hero-content">
